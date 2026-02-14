@@ -1,10 +1,9 @@
 <template>
   <div class="navbar flex justify-content-center align-items-center top-0 left-0 fixed">
     <ul class="flex flex-row list-none">
-        <li><router-link to="/">Home</router-link></li>
-        <li><router-link to="/characters">Characters</router-link></li>
-        <li><router-link to="/perks">Perks</router-link></li>
-        <li><router-link to="/login">Account</router-link></li>
+      <li><router-link to="/">Home</router-link></li>
+      <li><router-link to="/characters">Characters</router-link></li>
+      <li><router-link to="/wiki">Wiki</router-link></li>
     </ul>
   </div>
 </template>

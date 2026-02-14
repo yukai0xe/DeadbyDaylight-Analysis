@@ -26,10 +26,13 @@ const routes = [
     path: '/characters',
     name: 'Characters',
     component: () => import('@/views/character/Main.vue'),
-    meta: { layout: 'default' }
+    meta: {
+      layout: 'default',
+      requiresAuth: true
+    }
   },
   {
-    path: '/perks',
+    path: '/wiki',
     name: 'Perks',
     component: () => import('@/views/Perks.vue'),
     meta: { layout: 'default' }
