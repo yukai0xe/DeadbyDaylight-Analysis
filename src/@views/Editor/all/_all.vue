@@ -32,7 +32,7 @@
 import { NSkeleton } from "naive-ui";
 import { computed, ref, onBeforeMount } from "vue";
 import { useStore } from "vuex";
-import appendNewRole from "@/@views/editor/all/appendNewRole.vue";
+import appendNewRole from "@/@views/Editor/all/appendNewRole.vue";
 
 const create = ref(false);
 const store = useStore();

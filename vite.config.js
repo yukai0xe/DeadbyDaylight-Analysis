@@ -13,6 +13,11 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
   },
+  server: {
+    watch: {
+      usePolling: true
+    },
+  },
   css: {
     /* CSS 预处理器 */
     preprocessorOptions: {

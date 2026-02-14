@@ -1,0 +1,3704 @@
+{
+    "killers": {
+        "The_Trapper": [
+            {
+                "build": "Generic_Build",
+                "perks": [
+                    {
+                        "name": "Corrupt_Intervention",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/10/IconPerks_corruptIntervention.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Pain_Resonance",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/79/IconPerks_scourgeHookPainResonance.png"
+                    },
+                    {
+                        "name": "Dead_Man's_Switch",
+                        "img": "https://deadbydaylight.wiki.gg/images/c/c3/IconPerks_deadMansSwitch.png"
+                    },
+                    {
+                        "name": "Agitation",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/ac/IconPerks_agitation.png"
+                    }
+                ]
+            },
+            {
+                "build": "Endgame_Build",
+                "perks": [
+                    {
+                        "name": "Corrupt_Intervention",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/10/IconPerks_corruptIntervention.png"
+                    },
+                    {
+                        "name": "No_Holds_Barred",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/76/IconPerks_NoHoldsBarred.png"
+                    },
+                    {
+                        "name": "Coup_de_Grâce",
+                        "img": "https://deadbydaylight.wiki.gg/images/b/bd/IconPerks_coupDeGr%C3%A2ce.png"
+                    },
+                    {
+                        "name": "Hex__No_One_Escapes_Death",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/af/IconPerks_hexNoOneEscapesDeath.png"
+                    }
+                ]
+            },
+            {
+                "build": "Hex-Oriented_Build",
+                "perks": [
+                    {
+                        "name": "Hex__Ruin",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/a2/IconPerks_hexRuin.png"
+                    },
+                    {
+                        "name": "Hex__Wretched_Fate",
+                        "img": "https://deadbydaylight.wiki.gg/images/8/81/IconPerks_HexWretchedFate.png"
+                    },
+                    {
+                        "name": "Hex__Undying",
+                        "img": "https://deadbydaylight.wiki.gg/images/f/fe/IconPerks_hexUndying.png"
+                    },
+                    {
+                        "name": "Hex__Thrill_of_the_Hunt",
+                        "img": "https://deadbydaylight.wiki.gg/images/0/02/IconPerks_hexThrillOfTheHunt.png"
+                    }
+                ]
+            },
+            {
+                "build": "Build_with_Basic_Perks",
+                "perks": [
+                    {
+                        "name": "No_Holds_Barred",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/76/IconPerks_NoHoldsBarred.png"
+                    },
+                    {
+                        "name": "Hex__Fortune's_Fool",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/18/IconPerks_hexPlaything.png"
+                    },
+                    {
+                        "name": "Sloppy_Butcher",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/5a/IconPerks_sloppyButcher.png"
+                    },
+                    {
+                        "name": "Hex__No_One_Escapes_Death",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/af/IconPerks_hexNoOneEscapesDeath.png"
+                    }
+                ]
+            }
+        ],
+        "The_Wraith": [
+            {
+                "build": "Generic_Build",
+                "perks": [
+                    {
+                        "name": "Corrupt_Intervention",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/10/IconPerks_corruptIntervention.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Pain_Resonance",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/79/IconPerks_scourgeHookPainResonance.png"
+                    },
+                    {
+                        "name": "Grim_Embrace",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/1c/IconPerks_grimEmbrace.png"
+                    },
+                    {
+                        "name": "Bamboozle",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/7a/IconPerks_bamboozle.png"
+                    }
+                ]
+            },
+            {
+                "build": "Simple_Info_Build",
+                "perks": [
+                    {
+                        "name": "Lethal_Pursuer",
+                        "img": "https://deadbydaylight.wiki.gg/images/6/61/IconPerks_lethalPursuer.png"
+                    },
+                    {
+                        "name": "Barbecue_&_Chilli",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/51/IconPerks_barbecueAndChilli.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Pain_Resonance",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/79/IconPerks_scourgeHookPainResonance.png"
+                    },
+                    {
+                        "name": "Leverage",
+                        "img": "https://deadbydaylight.wiki.gg/images/c/c6/IconPerks_leverage.png"
+                    }
+                ]
+            },
+            {
+                "build": "Hex-Oriented_Build",
+                "perks": [
+                    {
+                        "name": "Hex__Ruin",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/a2/IconPerks_hexRuin.png"
+                    },
+                    {
+                        "name": "Hex__Blood_Favour",
+                        "img": "https://deadbydaylight.wiki.gg/images/6/6b/IconPerks_hexBloodFavour.png"
+                    },
+                    {
+                        "name": "Barbecue_&_Chilli",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/51/IconPerks_barbecueAndChilli.png"
+                    },
+                    {
+                        "name": "Hex__Undying",
+                        "img": "https://deadbydaylight.wiki.gg/images/f/fe/IconPerks_hexUndying.png"
+                    }
+                ]
+            },
+            {
+                "build": "Build_with_Basic_Perks",
+                "perks": [
+                    {
+                        "name": "No_Holds_Barred",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/76/IconPerks_NoHoldsBarred.png"
+                    },
+                    {
+                        "name": "Spies_from_the_Shadows",
+                        "img": "https://deadbydaylight.wiki.gg/images/b/b1/IconPerks_spiesFromTheShadows.png"
+                    },
+                    {
+                        "name": "Sloppy_Butcher",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/5a/IconPerks_sloppyButcher.png"
+                    },
+                    {
+                        "name": "Hex__No_One_Escapes_Death",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/af/IconPerks_hexNoOneEscapesDeath.png"
+                    }
+                ]
+            }
+        ],
+        "The_Hillbilly": [
+            {
+                "build": "Generic_Build",
+                "perks": [
+                    {
+                        "name": "Pop_Goes_the_Weasel",
+                        "img": "https://deadbydaylight.wiki.gg/images/0/0f/IconPerks_popGoesTheWeasel.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Pain_Resonance",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/79/IconPerks_scourgeHookPainResonance.png"
+                    },
+                    {
+                        "name": "Barbecue_&_Chilli",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/51/IconPerks_barbecueAndChilli.png"
+                    },
+                    {
+                        "name": "Bamboozle",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/7a/IconPerks_bamboozle.png"
+                    }
+                ]
+            },
+            {
+                "build": "Well-Rounded_Build",
+                "perks": [
+                    {
+                        "name": "Corrupt_Intervention",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/10/IconPerks_corruptIntervention.png"
+                    },
+                    {
+                        "name": "No_Holds_Barred",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/76/IconPerks_NoHoldsBarred.png"
+                    },
+                    {
+                        "name": "Tinkerer",
+                        "img": "https://deadbydaylight.wiki.gg/images/d/d9/IconPerks_tinkerer.png"
+                    },
+                    {
+                        "name": "Bamboozle",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/7a/IconPerks_bamboozle.png"
+                    }
+                ]
+            },
+            {
+                "build": "Hex_Build",
+                "perks": [
+                    {
+                        "name": "Hex__Ruin",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/a2/IconPerks_hexRuin.png"
+                    },
+                    {
+                        "name": "Hex__Crowd_Control",
+                        "img": "https://deadbydaylight.wiki.gg/images/f/f1/IconPerks_hexCrowdControl.png"
+                    },
+                    {
+                        "name": "Hex__Pentimento",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/5d/IconPerks_hexPentimento.png"
+                    },
+                    {
+                        "name": "Barbecue_&_Chilli",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/51/IconPerks_barbecueAndChilli.png"
+                    }
+                ]
+            },
+            {
+                "build": "Build_with_Basic_Perks",
+                "perks": [
+                    {
+                        "name": "Enduring",
+                        "img": "https://deadbydaylight.wiki.gg/images/9/94/IconPerks_enduring.png"
+                    },
+                    {
+                        "name": "Tinkerer",
+                        "img": "https://deadbydaylight.wiki.gg/images/d/d9/IconPerks_tinkerer.png"
+                    },
+                    {
+                        "name": "Hex__Fortune's_Fool",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/18/IconPerks_hexPlaything.png"
+                    },
+                    {
+                        "name": "No_Holds_Barred",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/76/IconPerks_NoHoldsBarred.png"
+                    }
+                ]
+            }
+        ],
+        "The_Nurse": [
+            {
+                "build": "Generic_Build",
+                "perks": [
+                    {
+                        "name": "Lethal_Pursuer",
+                        "img": "https://deadbydaylight.wiki.gg/images/6/61/IconPerks_lethalPursuer.png"
+                    },
+                    {
+                        "name": "Barbecue_&_Chilli",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/51/IconPerks_barbecueAndChilli.png"
+                    },
+                    {
+                        "name": "No_Holds_Barred",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/76/IconPerks_NoHoldsBarred.png"
+                    },
+                    {
+                        "name": "Predator",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/73/IconPerks_predator.png"
+                    }
+                ]
+            },
+            {
+                "build": "Scourge_Build",
+                "perks": [
+                    {
+                        "name": "Scourge_Hook__Pain_Resonance",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/79/IconPerks_scourgeHookPainResonance.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Floods_of_Rage",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/1c/IconPerks_scourgeHookFloodsOfRage.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Jagged_Compass",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/53/IconPerks_scourgeHookJaggedCompass.png"
+                    },
+                    {
+                        "name": "Grim_Embrace",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/1c/IconPerks_grimEmbrace.png"
+                    }
+                ]
+            },
+            {
+                "build": "Hex_Build",
+                "perks": [
+                    {
+                        "name": "Hex__Ruin",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/a2/IconPerks_hexRuin.png"
+                    },
+                    {
+                        "name": "Leverage",
+                        "img": "https://deadbydaylight.wiki.gg/images/c/c6/IconPerks_leverage.png"
+                    },
+                    {
+                        "name": "Barbecue_&_Chilli",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/51/IconPerks_barbecueAndChilli.png"
+                    },
+                    {
+                        "name": "Hex__Thrill_of_the_Hunt",
+                        "img": "https://deadbydaylight.wiki.gg/images/0/02/IconPerks_hexThrillOfTheHunt.png"
+                    }
+                ]
+            },
+            {
+                "build": "Build_with_Basic_Perks",
+                "perks": [
+                    {
+                        "name": "No_Holds_Barred",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/76/IconPerks_NoHoldsBarred.png"
+                    },
+                    {
+                        "name": "A_Nurse's_Calling",
+                        "img": "https://deadbydaylight.wiki.gg/images/f/fe/IconPerks_aNursesCalling.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Weeping_Wounds",
+                        "img": "https://deadbydaylight.wiki.gg/images/4/4c/IconPerks_scourgeHookWeepingWounds.png"
+                    },
+                    {
+                        "name": "Spies_from_the_Shadows",
+                        "img": "https://deadbydaylight.wiki.gg/images/b/b1/IconPerks_spiesFromTheShadows.png"
+                    }
+                ]
+            }
+        ],
+        "The_Huntress": [
+            {
+                "build": "Generic_Build",
+                "perks": [
+                    {
+                        "name": "Corrupt_Intervention",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/10/IconPerks_corruptIntervention.png"
+                    },
+                    {
+                        "name": "Barbecue_&_Chilli",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/51/IconPerks_barbecueAndChilli.png"
+                    },
+                    {
+                        "name": "Grim_Embrace",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/1c/IconPerks_grimEmbrace.png"
+                    },
+                    {
+                        "name": "Leverage",
+                        "img": "https://deadbydaylight.wiki.gg/images/c/c6/IconPerks_leverage.png"
+                    }
+                ]
+            },
+            {
+                "build": "Hex_Build",
+                "perks": [
+                    {
+                        "name": "Hex__Ruin",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/a2/IconPerks_hexRuin.png"
+                    },
+                    {
+                        "name": "Hex__Undying",
+                        "img": "https://deadbydaylight.wiki.gg/images/f/fe/IconPerks_hexUndying.png"
+                    },
+                    {
+                        "name": "Hex__Blood_Favour",
+                        "img": "https://deadbydaylight.wiki.gg/images/6/6b/IconPerks_hexBloodFavour.png"
+                    },
+                    {
+                        "name": "Discordance",
+                        "img": "https://deadbydaylight.wiki.gg/images/8/82/IconPerks_discordance.png"
+                    }
+                ]
+            },
+            {
+                "build": "Aura_Build",
+                "perks": [
+                    {
+                        "name": "Lethal_Pursuer",
+                        "img": "https://deadbydaylight.wiki.gg/images/6/61/IconPerks_lethalPursuer.png"
+                    },
+                    {
+                        "name": "Zanshin_Tactics",
+                        "img": "https://deadbydaylight.wiki.gg/images/d/d3/IconPerks_zanshinTactics.png"
+                    },
+                    {
+                        "name": "Barbecue_&_Chilli",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/51/IconPerks_barbecueAndChilli.png"
+                    },
+                    {
+                        "name": "No_Holds_Barred",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/76/IconPerks_NoHoldsBarred.png"
+                    }
+                ]
+            },
+            {
+                "build": "Build_with_Basic_Perks",
+                "perks": [
+                    {
+                        "name": "No_Holds_Barred",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/76/IconPerks_NoHoldsBarred.png"
+                    },
+                    {
+                        "name": "Bitter_Murmur",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/5a/IconPerks_bitterMurmur.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Weeping_Wounds",
+                        "img": "https://deadbydaylight.wiki.gg/images/4/4c/IconPerks_scourgeHookWeepingWounds.png"
+                    },
+                    {
+                        "name": "Spies_from_the_Shadows",
+                        "img": "https://deadbydaylight.wiki.gg/images/b/b1/IconPerks_spiesFromTheShadows.png"
+                    }
+                ]
+            }
+        ],
+        "The_Shape": [
+            {
+                "build": "Generic_Build",
+                "perks": [
+                    {
+                        "name": "Corrupt_Intervention",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/10/IconPerks_corruptIntervention.png"
+                    },
+                    {
+                        "name": "No_Holds_Barred",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/76/IconPerks_NoHoldsBarred.png"
+                    },
+                    {
+                        "name": "Tinkerer",
+                        "img": "https://deadbydaylight.wiki.gg/images/d/d9/IconPerks_tinkerer.png"
+                    },
+                    {
+                        "name": "No_Way_Out",
+                        "img": "https://deadbydaylight.wiki.gg/images/b/bb/IconPerks_noWayOut.png"
+                    }
+                ]
+            },
+            {
+                "build": "Gen_Info_Build",
+                "perks": [
+                    {
+                        "name": "Hex__Ruin",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/a2/IconPerks_hexRuin.png"
+                    },
+                    {
+                        "name": "Surge",
+                        "img": "https://deadbydaylight.wiki.gg/images/3/3b/IconPerks_surge.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Pain_Resonance",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/79/IconPerks_scourgeHookPainResonance.png"
+                    },
+                    {
+                        "name": "Barbecue_&_Chilli",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/51/IconPerks_barbecueAndChilli.png"
+                    }
+                ]
+            },
+            {
+                "build": "Aggressive_Chase_Build",
+                "perks": [
+                    {
+                        "name": "Discordance",
+                        "img": "https://deadbydaylight.wiki.gg/images/8/82/IconPerks_discordance.png"
+                    },
+                    {
+                        "name": "Play_with_Your_Food",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/18/IconPerks_playWithYourFood.png"
+                    },
+                    {
+                        "name": "Bamboozle",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/7a/IconPerks_bamboozle.png"
+                    },
+                    {
+                        "name": "No_Holds_Barred",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/76/IconPerks_NoHoldsBarred.png"
+                    }
+                ]
+            },
+            {
+                "build": "Build_with_Basic_Perks",
+                "perks": [
+                    {
+                        "name": "No_Holds_Barred",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/76/IconPerks_NoHoldsBarred.png"
+                    },
+                    {
+                        "name": "Spies_from_the_Shadows",
+                        "img": "https://deadbydaylight.wiki.gg/images/b/b1/IconPerks_spiesFromTheShadows.png"
+                    },
+                    {
+                        "name": "Sloppy_Butcher",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/5a/IconPerks_sloppyButcher.png"
+                    },
+                    {
+                        "name": "Play_with_Your_Food",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/18/IconPerks_playWithYourFood.png"
+                    }
+                ]
+            }
+        ],
+        "The_Hag": [
+            {
+                "build": "Generic_Build",
+                "perks": [
+                    {
+                        "name": "Corrupt_Intervention",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/10/IconPerks_corruptIntervention.png"
+                    },
+                    {
+                        "name": "No_Holds_Barred",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/76/IconPerks_NoHoldsBarred.png"
+                    },
+                    {
+                        "name": "Sloppy_Butcher",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/5a/IconPerks_sloppyButcher.png"
+                    },
+                    {
+                        "name": "Hex__No_One_Escapes_Death",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/af/IconPerks_hexNoOneEscapesDeath.png"
+                    }
+                ]
+            },
+            {
+                "build": "Hex-Oriented_Build",
+                "perks": [
+                    {
+                        "name": "Hex__Ruin",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/a2/IconPerks_hexRuin.png"
+                    },
+                    {
+                        "name": "Hex__Blood_Favour",
+                        "img": "https://deadbydaylight.wiki.gg/images/6/6b/IconPerks_hexBloodFavour.png"
+                    },
+                    {
+                        "name": "Hex__Undying",
+                        "img": "https://deadbydaylight.wiki.gg/images/f/fe/IconPerks_hexUndying.png"
+                    },
+                    {
+                        "name": "Sloppy_Butcher",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/5a/IconPerks_sloppyButcher.png"
+                    }
+                ]
+            },
+            {
+                "build": "Scourge_or_Basement_Build",
+                "perks": [
+                    {
+                        "name": "Agitation",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/ac/IconPerks_agitation.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Pain_Resonance",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/79/IconPerks_scourgeHookPainResonance.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Jagged_Compass",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/53/IconPerks_scourgeHookJaggedCompass.png"
+                    },
+                    {
+                        "name": "Grim_Embrace",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/1c/IconPerks_grimEmbrace.png"
+                    }
+                ]
+            },
+            {
+                "build": "Build_with_Basic_Perks",
+                "perks": [
+                    {
+                        "name": "Hex__Ruin",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/a2/IconPerks_hexRuin.png"
+                    },
+                    {
+                        "name": "No_Holds_Barred",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/76/IconPerks_NoHoldsBarred.png"
+                    },
+                    {
+                        "name": "Sloppy_Butcher",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/5a/IconPerks_sloppyButcher.png"
+                    },
+                    {
+                        "name": "Hex__No_One_Escapes_Death",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/af/IconPerks_hexNoOneEscapesDeath.png"
+                    }
+                ]
+            }
+        ],
+        "The_Doctor": [
+            {
+                "build": "Generic_Build",
+                "perks": [
+                    {
+                        "name": "Corrupt_Intervention",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/10/IconPerks_corruptIntervention.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Pain_Resonance",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/79/IconPerks_scourgeHookPainResonance.png"
+                    },
+                    {
+                        "name": "Grim_Embrace",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/1c/IconPerks_grimEmbrace.png"
+                    },
+                    {
+                        "name": "Merciless_Storm",
+                        "img": "https://deadbydaylight.wiki.gg/images/3/36/IconPerks_mercilessStorm.png"
+                    }
+                ]
+            },
+            {
+                "build": "Skillcheck-Oriented_Build",
+                "perks": [
+                    {
+                        "name": "Overcharge",
+                        "img": "https://deadbydaylight.wiki.gg/images/c/c3/IconPerks_overcharge.png"
+                    },
+                    {
+                        "name": "Oppression",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/a1/IconPerks_oppression.png"
+                    },
+                    {
+                        "name": "Hex__Huntress_Lullaby",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/11/IconPerks_hexHuntressLullaby.png"
+                    },
+                    {
+                        "name": "Hex__Undying",
+                        "img": "https://deadbydaylight.wiki.gg/images/f/fe/IconPerks_hexUndying.png"
+                    }
+                ]
+            },
+            {
+                "build": "Aggressive_Build",
+                "perks": [
+                    {
+                        "name": "Discordance",
+                        "img": "https://deadbydaylight.wiki.gg/images/8/82/IconPerks_discordance.png"
+                    },
+                    {
+                        "name": "Rapid_Brutality",
+                        "img": "https://deadbydaylight.wiki.gg/images/d/d4/IconPerks_rapidBrutality.png"
+                    },
+                    {
+                        "name": "Surge",
+                        "img": "https://deadbydaylight.wiki.gg/images/3/3b/IconPerks_surge.png"
+                    },
+                    {
+                        "name": "Hex__Ruin",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/a2/IconPerks_hexRuin.png"
+                    }
+                ]
+            },
+            {
+                "build": "Build_with_Basic_Perks",
+                "perks": [
+                    {
+                        "name": "No_Holds_Barred",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/76/IconPerks_NoHoldsBarred.png"
+                    },
+                    {
+                        "name": "Sloppy_Butcher",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/5a/IconPerks_sloppyButcher.png"
+                    },
+                    {
+                        "name": "Hex__Fortune's_Fool",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/18/IconPerks_hexPlaything.png"
+                    },
+                    {
+                        "name": "Hex__No_One_Escapes_Death",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/af/IconPerks_hexNoOneEscapesDeath.png"
+                    }
+                ]
+            }
+        ],
+        "The_Cannibal": [
+            {
+                "build": "Generic_Build",
+                "perks": [
+                    {
+                        "name": "Corrupt_Intervention",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/10/IconPerks_corruptIntervention.png"
+                    },
+                    {
+                        "name": "No_Holds_Barred",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/76/IconPerks_NoHoldsBarred.png"
+                    },
+                    {
+                        "name": "Barbecue_&_Chilli",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/51/IconPerks_barbecueAndChilli.png"
+                    },
+                    {
+                        "name": "Bamboozle",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/7a/IconPerks_bamboozle.png"
+                    }
+                ]
+            },
+            {
+                "build": "Aggressive_Build",
+                "perks": [
+                    {
+                        "name": "Eruption",
+                        "img": "https://deadbydaylight.wiki.gg/images/d/dd/IconPerks_eruption.png"
+                    },
+                    {
+                        "name": "Nowhere_to_Hide",
+                        "img": "https://deadbydaylight.wiki.gg/images/2/29/IconPerks_nowhereToHide.png"
+                    },
+                    {
+                        "name": "Pop_Goes_the_Weasel",
+                        "img": "https://deadbydaylight.wiki.gg/images/0/0f/IconPerks_popGoesTheWeasel.png"
+                    },
+                    {
+                        "name": "Bamboozle",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/7a/IconPerks_bamboozle.png"
+                    }
+                ]
+            },
+            {
+                "build": "Heavy_Stall_Build",
+                "perks": [
+                    {
+                        "name": "Scourge_Hook__Pain_Resonance",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/79/IconPerks_scourgeHookPainResonance.png"
+                    },
+                    {
+                        "name": "Grim_Embrace",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/1c/IconPerks_grimEmbrace.png"
+                    },
+                    {
+                        "name": "Dead_Man's_Switch",
+                        "img": "https://deadbydaylight.wiki.gg/images/c/c3/IconPerks_deadMansSwitch.png"
+                    },
+                    {
+                        "name": "Barbecue_&_Chilli",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/51/IconPerks_barbecueAndChilli.png"
+                    }
+                ]
+            },
+            {
+                "build": "Build_with_Basic_Perks",
+                "perks": [
+                    {
+                        "name": "No_Holds_Barred",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/76/IconPerks_NoHoldsBarred.png"
+                    },
+                    {
+                        "name": "Barbecue_&_Chilli",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/51/IconPerks_barbecueAndChilli.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Weeping_Wounds",
+                        "img": "https://deadbydaylight.wiki.gg/images/4/4c/IconPerks_scourgeHookWeepingWounds.png"
+                    },
+                    {
+                        "name": "Hex__Fortune's_Fool",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/18/IconPerks_hexPlaything.png"
+                    }
+                ]
+            }
+        ],
+        "The_Nightmare": [
+            {
+                "build": "Generic_Build",
+                "perks": [
+                    {
+                        "name": "Scourge_Hook__Pain_Resonance",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/79/IconPerks_scourgeHookPainResonance.png"
+                    },
+                    {
+                        "name": "Dead_Man's_Switch",
+                        "img": "https://deadbydaylight.wiki.gg/images/c/c3/IconPerks_deadMansSwitch.png"
+                    },
+                    {
+                        "name": "Friends_'til_the_End",
+                        "img": "https://deadbydaylight.wiki.gg/images/b/b3/IconPerks_friendsTilTheEnd.png"
+                    },
+                    {
+                        "name": "Leverage",
+                        "img": "https://deadbydaylight.wiki.gg/images/c/c6/IconPerks_leverage.png"
+                    }
+                ]
+            },
+            {
+                "build": "Gen_Control_Build",
+                "perks": [
+                    {
+                        "name": "Thrilling_Tremors",
+                        "img": "https://deadbydaylight.wiki.gg/images/b/b8/IconPerks_thrillingTremors.png"
+                    },
+                    {
+                        "name": "Brutal_Strength",
+                        "img": "https://deadbydaylight.wiki.gg/images/3/3d/IconPerks_brutalStrength.png"
+                    },
+                    {
+                        "name": "Eruption",
+                        "img": "https://deadbydaylight.wiki.gg/images/d/dd/IconPerks_eruption.png"
+                    },
+                    {
+                        "name": "Pop_Goes_the_Weasel",
+                        "img": "https://deadbydaylight.wiki.gg/images/0/0f/IconPerks_popGoesTheWeasel.png"
+                    }
+                ]
+            },
+            {
+                "build": "Anti-Pallet_Build",
+                "perks": [
+                    {
+                        "name": "Scourge_Hook__Pain_Resonance",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/79/IconPerks_scourgeHookPainResonance.png"
+                    },
+                    {
+                        "name": "Rapid_Brutality",
+                        "img": "https://deadbydaylight.wiki.gg/images/d/d4/IconPerks_rapidBrutality.png"
+                    },
+                    {
+                        "name": "Brutal_Strength",
+                        "img": "https://deadbydaylight.wiki.gg/images/3/3d/IconPerks_brutalStrength.png"
+                    },
+                    {
+                        "name": "Fire_Up",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/5c/IconPerks_fireUp.png"
+                    }
+                ]
+            },
+            {
+                "build": "Build_with_Basic_Perks",
+                "perks": [
+                    {
+                        "name": "Remember_Me",
+                        "img": "https://deadbydaylight.wiki.gg/images/6/62/IconPerks_rememberMe.png"
+                    },
+                    {
+                        "name": "Sloppy_Butcher",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/5a/IconPerks_sloppyButcher.png"
+                    },
+                    {
+                        "name": "No_Holds_Barred",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/76/IconPerks_NoHoldsBarred.png"
+                    },
+                    {
+                        "name": "Hex__No_One_Escapes_Death",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/af/IconPerks_hexNoOneEscapesDeath.png"
+                    }
+                ]
+            }
+        ],
+        "The_Pig": [
+            {
+                "build": "Generic_Build",
+                "perks": [
+                    {
+                        "name": "Corrupt_Intervention",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/10/IconPerks_corruptIntervention.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Pain_Resonance",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/79/IconPerks_scourgeHookPainResonance.png"
+                    },
+                    {
+                        "name": "Hex__Fortune's_Fool",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/18/IconPerks_hexPlaything.png"
+                    },
+                    {
+                        "name": "Grim_Embrace",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/1c/IconPerks_grimEmbrace.png"
+                    }
+                ]
+            },
+            {
+                "build": "Chase_&_Slowdown_Mix",
+                "perks": [
+                    {
+                        "name": "Corrupt_Intervention",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/10/IconPerks_corruptIntervention.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Pain_Resonance",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/79/IconPerks_scourgeHookPainResonance.png"
+                    },
+                    {
+                        "name": "Coup_de_Grâce",
+                        "img": "https://deadbydaylight.wiki.gg/images/b/bd/IconPerks_coupDeGr%C3%A2ce.png"
+                    },
+                    {
+                        "name": "Bamboozle",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/7a/IconPerks_bamboozle.png"
+                    }
+                ]
+            },
+            {
+                "build": "Strong_Hex_Build",
+                "perks": [
+                    {
+                        "name": "Hex__Ruin",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/a2/IconPerks_hexRuin.png"
+                    },
+                    {
+                        "name": "Hex__Undying",
+                        "img": "https://deadbydaylight.wiki.gg/images/f/fe/IconPerks_hexUndying.png"
+                    },
+                    {
+                        "name": "Leverage",
+                        "img": "https://deadbydaylight.wiki.gg/images/c/c6/IconPerks_leverage.png"
+                    },
+                    {
+                        "name": "Hex__Pentimento",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/5d/IconPerks_hexPentimento.png"
+                    }
+                ]
+            },
+            {
+                "build": "Build_with_Basic_Perks",
+                "perks": [
+                    {
+                        "name": "No_Holds_Barred",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/76/IconPerks_NoHoldsBarred.png"
+                    },
+                    {
+                        "name": "Make_Your_Choice",
+                        "img": "https://deadbydaylight.wiki.gg/images/6/6b/IconPerks_makeYourChoice.png"
+                    },
+                    {
+                        "name": "Sloppy_Butcher",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/5a/IconPerks_sloppyButcher.png"
+                    },
+                    {
+                        "name": "Hex__Fortune's_Fool",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/18/IconPerks_hexPlaything.png"
+                    }
+                ]
+            }
+        ],
+        "The_Clown": [
+            {
+                "build": "Generic_Build",
+                "perks": [
+                    {
+                        "name": "Corrupt_Intervention",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/10/IconPerks_corruptIntervention.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Pain_Resonance",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/79/IconPerks_scourgeHookPainResonance.png"
+                    },
+                    {
+                        "name": "Coup_de_Grâce",
+                        "img": "https://deadbydaylight.wiki.gg/images/b/bd/IconPerks_coupDeGr%C3%A2ce.png"
+                    },
+                    {
+                        "name": "Zanshin_Tactics",
+                        "img": "https://deadbydaylight.wiki.gg/images/d/d3/IconPerks_zanshinTactics.png"
+                    }
+                ]
+            },
+            {
+                "build": "Hex_Build",
+                "perks": [
+                    {
+                        "name": "Hex__Ruin",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/a2/IconPerks_hexRuin.png"
+                    },
+                    {
+                        "name": "Hex__Blood_Favour",
+                        "img": "https://deadbydaylight.wiki.gg/images/6/6b/IconPerks_hexBloodFavour.png"
+                    },
+                    {
+                        "name": "Hex__Devour_Hope",
+                        "img": "https://deadbydaylight.wiki.gg/images/c/c9/IconPerks_hexDevourHope.png"
+                    },
+                    {
+                        "name": "Hex__Thrill_of_the_Hunt",
+                        "img": "https://deadbydaylight.wiki.gg/images/0/02/IconPerks_hexThrillOfTheHunt.png"
+                    }
+                ]
+            },
+            {
+                "build": "Scourge_Slowdown_Build",
+                "perks": [
+                    {
+                        "name": "Scourge_Hook__Weeping_Wounds",
+                        "img": "https://deadbydaylight.wiki.gg/images/4/4c/IconPerks_scourgeHookWeepingWounds.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Jagged_Compass",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/53/IconPerks_scourgeHookJaggedCompass.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Pain_Resonance",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/79/IconPerks_scourgeHookPainResonance.png"
+                    },
+                    {
+                        "name": "Surge",
+                        "img": "https://deadbydaylight.wiki.gg/images/3/3b/IconPerks_surge.png"
+                    }
+                ]
+            },
+            {
+                "build": "Build_with_Basic_Perks",
+                "perks": [
+                    {
+                        "name": "No_Holds_Barred",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/76/IconPerks_NoHoldsBarred.png"
+                    },
+                    {
+                        "name": "Pop_Goes_the_Weasel",
+                        "img": "https://deadbydaylight.wiki.gg/images/0/0f/IconPerks_popGoesTheWeasel.png"
+                    },
+                    {
+                        "name": "Sloppy_Butcher",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/5a/IconPerks_sloppyButcher.png"
+                    },
+                    {
+                        "name": "Hex__No_One_Escapes_Death",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/af/IconPerks_hexNoOneEscapesDeath.png"
+                    }
+                ]
+            }
+        ],
+        "The_Spirit": [
+            {
+                "build": "Generic_Build",
+                "perks": [
+                    {
+                        "name": "Corrupt_Intervention",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/10/IconPerks_corruptIntervention.png"
+                    },
+                    {
+                        "name": "Friends_'til_the_End",
+                        "img": "https://deadbydaylight.wiki.gg/images/b/b3/IconPerks_friendsTilTheEnd.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Pain_Resonance",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/79/IconPerks_scourgeHookPainResonance.png"
+                    },
+                    {
+                        "name": "Pop_Goes_the_Weasel",
+                        "img": "https://deadbydaylight.wiki.gg/images/0/0f/IconPerks_popGoesTheWeasel.png"
+                    }
+                ]
+            },
+            {
+                "build": "Aggressive_Instadown_Build",
+                "perks": [
+                    {
+                        "name": "Lethal_Pursuer",
+                        "img": "https://deadbydaylight.wiki.gg/images/6/61/IconPerks_lethalPursuer.png"
+                    },
+                    {
+                        "name": "Friends_'til_the_End",
+                        "img": "https://deadbydaylight.wiki.gg/images/b/b3/IconPerks_friendsTilTheEnd.png"
+                    },
+                    {
+                        "name": "Hex__No_One_Escapes_Death",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/af/IconPerks_hexNoOneEscapesDeath.png"
+                    },
+                    {
+                        "name": "No_Way_Out",
+                        "img": "https://deadbydaylight.wiki.gg/images/b/bb/IconPerks_noWayOut.png"
+                    }
+                ]
+            },
+            {
+                "build": "Anti-Pallet_Build",
+                "perks": [
+                    {
+                        "name": "Hex__Blood_Favour",
+                        "img": "https://deadbydaylight.wiki.gg/images/6/6b/IconPerks_hexBloodFavour.png"
+                    },
+                    {
+                        "name": "Hex__Undying",
+                        "img": "https://deadbydaylight.wiki.gg/images/f/fe/IconPerks_hexUndying.png"
+                    },
+                    {
+                        "name": "Hex__Pentimento",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/5d/IconPerks_hexPentimento.png"
+                    },
+                    {
+                        "name": "No_Holds_Barred",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/76/IconPerks_NoHoldsBarred.png"
+                    }
+                ]
+            },
+            {
+                "build": "Build_with_Basic_Perks",
+                "perks": [
+                    {
+                        "name": "No_Holds_Barred",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/76/IconPerks_NoHoldsBarred.png"
+                    },
+                    {
+                        "name": "Spies_from_the_Shadows",
+                        "img": "https://deadbydaylight.wiki.gg/images/b/b1/IconPerks_spiesFromTheShadows.png"
+                    },
+                    {
+                        "name": "Sloppy_Butcher",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/5a/IconPerks_sloppyButcher.png"
+                    },
+                    {
+                        "name": "Hex__No_One_Escapes_Death",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/af/IconPerks_hexNoOneEscapesDeath.png"
+                    }
+                ]
+            }
+        ],
+        "The_Legion": [
+            {
+                "build": "Generic_Build",
+                "perks": [
+                    {
+                        "name": "Surge",
+                        "img": "https://deadbydaylight.wiki.gg/images/3/3b/IconPerks_surge.png"
+                    },
+                    {
+                        "name": "Hex__Ruin",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/a2/IconPerks_hexRuin.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Pain_Resonance",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/79/IconPerks_scourgeHookPainResonance.png"
+                    },
+                    {
+                        "name": "Surveillance",
+                        "img": "https://deadbydaylight.wiki.gg/images/e/eb/IconPerks_surveillance.png"
+                    }
+                ]
+            },
+            {
+                "build": "All-Purpose_Build",
+                "perks": [
+                    {
+                        "name": "Lethal_Pursuer",
+                        "img": "https://deadbydaylight.wiki.gg/images/6/61/IconPerks_lethalPursuer.png"
+                    },
+                    {
+                        "name": "Play_with_Your_Food",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/18/IconPerks_playWithYourFood.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Pain_Resonance",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/79/IconPerks_scourgeHookPainResonance.png"
+                    },
+                    {
+                        "name": "No_Way_Out",
+                        "img": "https://deadbydaylight.wiki.gg/images/b/bb/IconPerks_noWayOut.png"
+                    }
+                ]
+            },
+            {
+                "build": "Simple_Chase_Build",
+                "perks": [
+                    {
+                        "name": "I'm_All_Ears",
+                        "img": "https://deadbydaylight.wiki.gg/images/e/e3/IconPerks_imAllEars.png"
+                    },
+                    {
+                        "name": "Bamboozle",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/7a/IconPerks_bamboozle.png"
+                    },
+                    {
+                        "name": "No_Holds_Barred",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/76/IconPerks_NoHoldsBarred.png"
+                    },
+                    {
+                        "name": "Grim_Embrace",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/1c/IconPerks_grimEmbrace.png"
+                    }
+                ]
+            },
+            {
+                "build": "Build_with_Basic_Perks",
+                "perks": [
+                    {
+                        "name": "No_Holds_Barred",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/76/IconPerks_NoHoldsBarred.png"
+                    },
+                    {
+                        "name": "Discordance",
+                        "img": "https://deadbydaylight.wiki.gg/images/8/82/IconPerks_discordance.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Weeping_Wounds",
+                        "img": "https://deadbydaylight.wiki.gg/images/4/4c/IconPerks_scourgeHookWeepingWounds.png"
+                    },
+                    {
+                        "name": "Hex__No_One_Escapes_Death",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/af/IconPerks_hexNoOneEscapesDeath.png"
+                    }
+                ]
+            }
+        ],
+        "The_Plague": [
+            {
+                "build": "Generic_Build",
+                "perks": [
+                    {
+                        "name": "Corrupt_Intervention",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/10/IconPerks_corruptIntervention.png"
+                    },
+                    {
+                        "name": "Grim_Embrace",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/1c/IconPerks_grimEmbrace.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Pain_Resonance",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/79/IconPerks_scourgeHookPainResonance.png"
+                    },
+                    {
+                        "name": "Barbecue_&_Chilli",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/51/IconPerks_barbecueAndChilli.png"
+                    }
+                ]
+            },
+            {
+                "build": "Gen-Control_Build",
+                "perks": [
+                    {
+                        "name": "Discordance",
+                        "img": "https://deadbydaylight.wiki.gg/images/8/82/IconPerks_discordance.png"
+                    },
+                    {
+                        "name": "Tinkerer",
+                        "img": "https://deadbydaylight.wiki.gg/images/d/d9/IconPerks_tinkerer.png"
+                    },
+                    {
+                        "name": "No_Holds_Barred",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/76/IconPerks_NoHoldsBarred.png"
+                    },
+                    {
+                        "name": "No_Way_Out",
+                        "img": "https://deadbydaylight.wiki.gg/images/b/bb/IconPerks_noWayOut.png"
+                    }
+                ]
+            },
+            {
+                "build": "Hex_Build",
+                "perks": [
+                    {
+                        "name": "Hex__Ruin",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/a2/IconPerks_hexRuin.png"
+                    },
+                    {
+                        "name": "Hex__Blood_Favour",
+                        "img": "https://deadbydaylight.wiki.gg/images/6/6b/IconPerks_hexBloodFavour.png"
+                    },
+                    {
+                        "name": "Hex__Undying",
+                        "img": "https://deadbydaylight.wiki.gg/images/f/fe/IconPerks_hexUndying.png"
+                    },
+                    {
+                        "name": "Hex__Pentimento",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/5d/IconPerks_hexPentimento.png"
+                    }
+                ]
+            },
+            {
+                "build": "Build_with_Basic_Perks",
+                "perks": [
+                    {
+                        "name": "Corrupt_Intervention",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/10/IconPerks_corruptIntervention.png"
+                    },
+                    {
+                        "name": "Infectious_Fright",
+                        "img": "https://deadbydaylight.wiki.gg/images/6/6d/IconPerks_infectiousFright.png"
+                    },
+                    {
+                        "name": "Spies_from_the_Shadows",
+                        "img": "https://deadbydaylight.wiki.gg/images/b/b1/IconPerks_spiesFromTheShadows.png"
+                    },
+                    {
+                        "name": "No_Holds_Barred",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/76/IconPerks_NoHoldsBarred.png"
+                    }
+                ]
+            }
+        ],
+        "The_Ghost_Face": [
+            {
+                "build": "Generic_Build",
+                "perks": [
+                    {
+                        "name": "Corrupt_Intervention",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/10/IconPerks_corruptIntervention.png"
+                    },
+                    {
+                        "name": "Pop_Goes_the_Weasel",
+                        "img": "https://deadbydaylight.wiki.gg/images/0/0f/IconPerks_popGoesTheWeasel.png"
+                    },
+                    {
+                        "name": "Nowhere_to_Hide",
+                        "img": "https://deadbydaylight.wiki.gg/images/2/29/IconPerks_nowhereToHide.png"
+                    },
+                    {
+                        "name": "Eruption",
+                        "img": "https://deadbydaylight.wiki.gg/images/d/dd/IconPerks_eruption.png"
+                    }
+                ]
+            },
+            {
+                "build": "Passive_Slowdown_&_Haste",
+                "perks": [
+                    {
+                        "name": "Lethal_Pursuer",
+                        "img": "https://deadbydaylight.wiki.gg/images/6/61/IconPerks_lethalPursuer.png"
+                    },
+                    {
+                        "name": "Play_with_Your_Food",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/18/IconPerks_playWithYourFood.png"
+                    },
+                    {
+                        "name": "No_Holds_Barred",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/76/IconPerks_NoHoldsBarred.png"
+                    },
+                    {
+                        "name": "No_Way_Out",
+                        "img": "https://deadbydaylight.wiki.gg/images/b/bb/IconPerks_noWayOut.png"
+                    }
+                ]
+            },
+            {
+                "build": "Gen-Info_Build",
+                "perks": [
+                    {
+                        "name": "Hex__Ruin",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/a2/IconPerks_hexRuin.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Pain_Resonance",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/79/IconPerks_scourgeHookPainResonance.png"
+                    },
+                    {
+                        "name": "Surge",
+                        "img": "https://deadbydaylight.wiki.gg/images/3/3b/IconPerks_surge.png"
+                    },
+                    {
+                        "name": "Surveillance",
+                        "img": "https://deadbydaylight.wiki.gg/images/e/eb/IconPerks_surveillance.png"
+                    }
+                ]
+            },
+            {
+                "build": "Build_with_Basic_Perks",
+                "perks": [
+                    {
+                        "name": "No_Holds_Barred",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/76/IconPerks_NoHoldsBarred.png"
+                    },
+                    {
+                        "name": "Thrilling_Tremors",
+                        "img": "https://deadbydaylight.wiki.gg/images/b/b8/IconPerks_thrillingTremors.png"
+                    },
+                    {
+                        "name": "Sloppy_Butcher",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/5a/IconPerks_sloppyButcher.png"
+                    },
+                    {
+                        "name": "Hex__No_One_Escapes_Death",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/af/IconPerks_hexNoOneEscapesDeath.png"
+                    }
+                ]
+            }
+        ],
+        "The_Demogorgon": [
+            {
+                "build": "Generic_Build",
+                "perks": [
+                    {
+                        "name": "Corrupt_Intervention",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/10/IconPerks_corruptIntervention.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Pain_Resonance",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/79/IconPerks_scourgeHookPainResonance.png"
+                    },
+                    {
+                        "name": "Grim_Embrace",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/1c/IconPerks_grimEmbrace.png"
+                    },
+                    {
+                        "name": "Bamboozle",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/7a/IconPerks_bamboozle.png"
+                    }
+                ]
+            },
+            {
+                "build": "Passive_Slowdown_&_Endgame",
+                "perks": [
+                    {
+                        "name": "Corrupt_Intervention",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/10/IconPerks_corruptIntervention.png"
+                    },
+                    {
+                        "name": "No_Holds_Barred",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/76/IconPerks_NoHoldsBarred.png"
+                    },
+                    {
+                        "name": "Coup_de_Grâce",
+                        "img": "https://deadbydaylight.wiki.gg/images/b/bd/IconPerks_coupDeGr%C3%A2ce.png"
+                    },
+                    {
+                        "name": "No_Way_Out",
+                        "img": "https://deadbydaylight.wiki.gg/images/b/bb/IconPerks_noWayOut.png"
+                    }
+                ]
+            },
+            {
+                "build": "Hex_Build",
+                "perks": [
+                    {
+                        "name": "Hex__Ruin",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/a2/IconPerks_hexRuin.png"
+                    },
+                    {
+                        "name": "Hex__Undying",
+                        "img": "https://deadbydaylight.wiki.gg/images/f/fe/IconPerks_hexUndying.png"
+                    },
+                    {
+                        "name": "Hex__Devour_Hope",
+                        "img": "https://deadbydaylight.wiki.gg/images/c/c9/IconPerks_hexDevourHope.png"
+                    },
+                    {
+                        "name": "Hex__Pentimento",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/5d/IconPerks_hexPentimento.png"
+                    }
+                ]
+            },
+            {
+                "build": "Build_with_Basic_Perks",
+                "perks": [
+                    {
+                        "name": "No_Holds_Barred",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/76/IconPerks_NoHoldsBarred.png"
+                    },
+                    {
+                        "name": "Surge",
+                        "img": "https://deadbydaylight.wiki.gg/images/3/3b/IconPerks_surge.png"
+                    },
+                    {
+                        "name": "Sloppy_Butcher",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/5a/IconPerks_sloppyButcher.png"
+                    },
+                    {
+                        "name": "Hex__No_One_Escapes_Death",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/af/IconPerks_hexNoOneEscapesDeath.png"
+                    }
+                ]
+            }
+        ],
+        "The_Oni": [
+            {
+                "build": "Generic_Build",
+                "perks": [
+                    {
+                        "name": "Corrupt_Intervention",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/10/IconPerks_corruptIntervention.png"
+                    },
+                    {
+                        "name": "Tinkerer",
+                        "img": "https://deadbydaylight.wiki.gg/images/d/d9/IconPerks_tinkerer.png"
+                    },
+                    {
+                        "name": "No_Holds_Barred",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/76/IconPerks_NoHoldsBarred.png"
+                    },
+                    {
+                        "name": "No_Way_Out",
+                        "img": "https://deadbydaylight.wiki.gg/images/b/bb/IconPerks_noWayOut.png"
+                    }
+                ]
+            },
+            {
+                "build": "Scourge_Hook_Build",
+                "perks": [
+                    {
+                        "name": "Lethal_Pursuer",
+                        "img": "https://deadbydaylight.wiki.gg/images/6/61/IconPerks_lethalPursuer.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Pain_Resonance",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/79/IconPerks_scourgeHookPainResonance.png"
+                    },
+                    {
+                        "name": "Barbecue_&_Chilli",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/51/IconPerks_barbecueAndChilli.png"
+                    },
+                    {
+                        "name": "Grim_Embrace",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/1c/IconPerks_grimEmbrace.png"
+                    }
+                ]
+            },
+            {
+                "build": "Chaotic_Gen_Build",
+                "perks": [
+                    {
+                        "name": "Pop_Goes_the_Weasel",
+                        "img": "https://deadbydaylight.wiki.gg/images/0/0f/IconPerks_popGoesTheWeasel.png"
+                    },
+                    {
+                        "name": "Trail_of_Torment",
+                        "img": "https://deadbydaylight.wiki.gg/images/9/94/IconPerks_trailOfTorment.png"
+                    },
+                    {
+                        "name": "Eruption",
+                        "img": "https://deadbydaylight.wiki.gg/images/d/dd/IconPerks_eruption.png"
+                    },
+                    {
+                        "name": "Nowhere_to_Hide",
+                        "img": "https://deadbydaylight.wiki.gg/images/2/29/IconPerks_nowhereToHide.png"
+                    }
+                ]
+            },
+            {
+                "build": "Build_with_Basic_Perks",
+                "perks": [
+                    {
+                        "name": "No_Holds_Barred",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/76/IconPerks_NoHoldsBarred.png"
+                    },
+                    {
+                        "name": "Sloppy_Butcher",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/5a/IconPerks_sloppyButcher.png"
+                    },
+                    {
+                        "name": "Hex__Fortune's_Fool",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/18/IconPerks_hexPlaything.png"
+                    },
+                    {
+                        "name": "Zanshin_Tactics",
+                        "img": "https://deadbydaylight.wiki.gg/images/d/d3/IconPerks_zanshinTactics.png"
+                    }
+                ]
+            }
+        ],
+        "The_Deathslinger": [
+            {
+                "build": "Generic_Build",
+                "perks": [
+                    {
+                        "name": "Corrupt_Intervention",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/10/IconPerks_corruptIntervention.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Pain_Resonance",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/79/IconPerks_scourgeHookPainResonance.png"
+                    },
+                    {
+                        "name": "Surge",
+                        "img": "https://deadbydaylight.wiki.gg/images/3/3b/IconPerks_surge.png"
+                    },
+                    {
+                        "name": "No_Way_Out",
+                        "img": "https://deadbydaylight.wiki.gg/images/b/bb/IconPerks_noWayOut.png"
+                    }
+                ]
+            },
+            {
+                "build": "Aggressive_Build",
+                "perks": [
+                    {
+                        "name": "Friends_'til_the_End",
+                        "img": "https://deadbydaylight.wiki.gg/images/b/b3/IconPerks_friendsTilTheEnd.png"
+                    },
+                    {
+                        "name": "Dead_Man's_Switch",
+                        "img": "https://deadbydaylight.wiki.gg/images/c/c3/IconPerks_deadMansSwitch.png"
+                    },
+                    {
+                        "name": "No_Way_Out",
+                        "img": "https://deadbydaylight.wiki.gg/images/b/bb/IconPerks_noWayOut.png"
+                    },
+                    {
+                        "name": "Leverage",
+                        "img": "https://deadbydaylight.wiki.gg/images/c/c6/IconPerks_leverage.png"
+                    }
+                ]
+            },
+            {
+                "build": "Starstruck_Build",
+                "perks": [
+                    {
+                        "name": "Agitation",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/ac/IconPerks_agitation.png"
+                    },
+                    {
+                        "name": "Starstruck",
+                        "img": "https://deadbydaylight.wiki.gg/images/6/6e/IconPerks_starstruck.png"
+                    },
+                    {
+                        "name": "Surge",
+                        "img": "https://deadbydaylight.wiki.gg/images/3/3b/IconPerks_surge.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Pain_Resonance",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/79/IconPerks_scourgeHookPainResonance.png"
+                    }
+                ]
+            },
+            {
+                "build": "Build_with_Basic_Perks",
+                "perks": [
+                    {
+                        "name": "No_Holds_Barred",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/76/IconPerks_NoHoldsBarred.png"
+                    },
+                    {
+                        "name": "Dead_Man's_Switch",
+                        "img": "https://deadbydaylight.wiki.gg/images/c/c3/IconPerks_deadMansSwitch.png"
+                    },
+                    {
+                        "name": "Sloppy_Butcher",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/5a/IconPerks_sloppyButcher.png"
+                    },
+                    {
+                        "name": "Hex__No_One_Escapes_Death",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/af/IconPerks_hexNoOneEscapesDeath.png"
+                    }
+                ]
+            }
+        ],
+        "The_Executioner": [
+            {
+                "build": "Generic_Build",
+                "perks": [
+                    {
+                        "name": "Corrupt_Intervention",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/10/IconPerks_corruptIntervention.png"
+                    },
+                    {
+                        "name": "Dead_Man's_Switch",
+                        "img": "https://deadbydaylight.wiki.gg/images/c/c3/IconPerks_deadMansSwitch.png"
+                    },
+                    {
+                        "name": "Nowhere_to_Hide",
+                        "img": "https://deadbydaylight.wiki.gg/images/2/29/IconPerks_nowhereToHide.png"
+                    },
+                    {
+                        "name": "No_Way_Out",
+                        "img": "https://deadbydaylight.wiki.gg/images/b/bb/IconPerks_noWayOut.png"
+                    }
+                ]
+            },
+            {
+                "build": "Gen_Info_Build",
+                "perks": [
+                    {
+                        "name": "Discordance",
+                        "img": "https://deadbydaylight.wiki.gg/images/8/82/IconPerks_discordance.png"
+                    },
+                    {
+                        "name": "Tinkerer",
+                        "img": "https://deadbydaylight.wiki.gg/images/d/d9/IconPerks_tinkerer.png"
+                    },
+                    {
+                        "name": "No_Holds_Barred",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/76/IconPerks_NoHoldsBarred.png"
+                    },
+                    {
+                        "name": "No_Way_Out",
+                        "img": "https://deadbydaylight.wiki.gg/images/b/bb/IconPerks_noWayOut.png"
+                    }
+                ]
+            },
+            {
+                "build": "Aggressive_Aura_Build",
+                "perks": [
+                    {
+                        "name": "Lethal_Pursuer",
+                        "img": "https://deadbydaylight.wiki.gg/images/6/61/IconPerks_lethalPursuer.png"
+                    },
+                    {
+                        "name": "Zanshin_Tactics",
+                        "img": "https://deadbydaylight.wiki.gg/images/d/d3/IconPerks_zanshinTactics.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Pain_Resonance",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/79/IconPerks_scourgeHookPainResonance.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Floods_of_Rage",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/1c/IconPerks_scourgeHookFloodsOfRage.png"
+                    }
+                ]
+            },
+            {
+                "build": "Build_with_Basic_Perks",
+                "perks": [
+                    {
+                        "name": "No_Holds_Barred",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/76/IconPerks_NoHoldsBarred.png"
+                    },
+                    {
+                        "name": "Trail_of_Torment",
+                        "img": "https://deadbydaylight.wiki.gg/images/9/94/IconPerks_trailOfTorment.png"
+                    },
+                    {
+                        "name": "Sloppy_Butcher",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/5a/IconPerks_sloppyButcher.png"
+                    },
+                    {
+                        "name": "Hex__No_One_Escapes_Death",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/af/IconPerks_hexNoOneEscapesDeath.png"
+                    }
+                ]
+            }
+        ],
+        "The_Blight": [
+            {
+                "build": "Generic_Build",
+                "perks": [
+                    {
+                        "name": "Scourge_Hook__Pain_Resonance",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/79/IconPerks_scourgeHookPainResonance.png"
+                    },
+                    {
+                        "name": "Pop_Goes_the_Weasel",
+                        "img": "https://deadbydaylight.wiki.gg/images/0/0f/IconPerks_popGoesTheWeasel.png"
+                    },
+                    {
+                        "name": "Grim_Embrace",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/1c/IconPerks_grimEmbrace.png"
+                    },
+                    {
+                        "name": "Barbecue_&_Chilli",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/51/IconPerks_barbecueAndChilli.png"
+                    }
+                ]
+            },
+            {
+                "build": "Aggressive_Aura_Build",
+                "perks": [
+                    {
+                        "name": "Lethal_Pursuer",
+                        "img": "https://deadbydaylight.wiki.gg/images/6/61/IconPerks_lethalPursuer.png"
+                    },
+                    {
+                        "name": "Barbecue_&_Chilli",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/51/IconPerks_barbecueAndChilli.png"
+                    },
+                    {
+                        "name": "Pop_Goes_the_Weasel",
+                        "img": "https://deadbydaylight.wiki.gg/images/0/0f/IconPerks_popGoesTheWeasel.png"
+                    },
+                    {
+                        "name": "Nowhere_to_Hide",
+                        "img": "https://deadbydaylight.wiki.gg/images/2/29/IconPerks_nowhereToHide.png"
+                    }
+                ]
+            },
+            {
+                "build": "Heavy_Slowdown_Build",
+                "perks": [
+                    {
+                        "name": "Scourge_Hook__Pain_Resonance",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/79/IconPerks_scourgeHookPainResonance.png"
+                    },
+                    {
+                        "name": "Leverage",
+                        "img": "https://deadbydaylight.wiki.gg/images/c/c6/IconPerks_leverage.png"
+                    },
+                    {
+                        "name": "Hex__Ruin",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/a2/IconPerks_hexRuin.png"
+                    },
+                    {
+                        "name": "Grim_Embrace",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/1c/IconPerks_grimEmbrace.png"
+                    }
+                ]
+            },
+            {
+                "build": "Build_with_Basic_Perks",
+                "perks": [
+                    {
+                        "name": "Spies_from_the_Shadows",
+                        "img": "https://deadbydaylight.wiki.gg/images/b/b1/IconPerks_spiesFromTheShadows.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Weeping_Wounds",
+                        "img": "https://deadbydaylight.wiki.gg/images/4/4c/IconPerks_scourgeHookWeepingWounds.png"
+                    },
+                    {
+                        "name": "Hex__Blood_Favour",
+                        "img": "https://deadbydaylight.wiki.gg/images/6/6b/IconPerks_hexBloodFavour.png"
+                    },
+                    {
+                        "name": "No_Holds_Barred",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/76/IconPerks_NoHoldsBarred.png"
+                    }
+                ]
+            }
+        ],
+        "The_Twins": [
+            {
+                "build": "Generic_Build",
+                "perks": [
+                    {
+                        "name": "Corrupt_Intervention",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/10/IconPerks_corruptIntervention.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Pain_Resonance",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/79/IconPerks_scourgeHookPainResonance.png"
+                    },
+                    {
+                        "name": "Grim_Embrace",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/1c/IconPerks_grimEmbrace.png"
+                    },
+                    {
+                        "name": "Barbecue_&_Chilli",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/51/IconPerks_barbecueAndChilli.png"
+                    }
+                ]
+            },
+            {
+                "build": "Antiheal_Build",
+                "perks": [
+                    {
+                        "name": "Scourge_Hook__Pain_Resonance",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/79/IconPerks_scourgeHookPainResonance.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Weeping_Wounds",
+                        "img": "https://deadbydaylight.wiki.gg/images/4/4c/IconPerks_scourgeHookWeepingWounds.png"
+                    },
+                    {
+                        "name": "Leverage",
+                        "img": "https://deadbydaylight.wiki.gg/images/c/c6/IconPerks_leverage.png"
+                    },
+                    {
+                        "name": "Grim_Embrace",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/1c/IconPerks_grimEmbrace.png"
+                    }
+                ]
+            },
+            {
+                "build": "Hex_Build",
+                "perks": [
+                    {
+                        "name": "Discordance",
+                        "img": "https://deadbydaylight.wiki.gg/images/8/82/IconPerks_discordance.png"
+                    },
+                    {
+                        "name": "Hex__Blood_Favour",
+                        "img": "https://deadbydaylight.wiki.gg/images/6/6b/IconPerks_hexBloodFavour.png"
+                    },
+                    {
+                        "name": "Hex__Wretched_Fate",
+                        "img": "https://deadbydaylight.wiki.gg/images/8/81/IconPerks_HexWretchedFate.png"
+                    },
+                    {
+                        "name": "Hex__Undying",
+                        "img": "https://deadbydaylight.wiki.gg/images/f/fe/IconPerks_hexUndying.png"
+                    }
+                ]
+            },
+            {
+                "build": "Build_with_Basic_Perks",
+                "perks": [
+                    {
+                        "name": "No_Holds_Barred",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/76/IconPerks_NoHoldsBarred.png"
+                    },
+                    {
+                        "name": "Sloppy_Butcher",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/5a/IconPerks_sloppyButcher.png"
+                    },
+                    {
+                        "name": "Coup_de_Grâce",
+                        "img": "https://deadbydaylight.wiki.gg/images/b/bd/IconPerks_coupDeGr%C3%A2ce.png"
+                    },
+                    {
+                        "name": "Hex__No_One_Escapes_Death",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/af/IconPerks_hexNoOneEscapesDeath.png"
+                    }
+                ]
+            }
+        ],
+        "The_Trickster": [
+            {
+                "build": "Generic_Build",
+                "perks": [
+                    {
+                        "name": "Corrupt_Intervention",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/10/IconPerks_corruptIntervention.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Pain_Resonance",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/79/IconPerks_scourgeHookPainResonance.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Jagged_Compass",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/53/IconPerks_scourgeHookJaggedCompass.png"
+                    },
+                    {
+                        "name": "Grim_Embrace",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/1c/IconPerks_grimEmbrace.png"
+                    }
+                ]
+            },
+            {
+                "build": "Scourge_Build",
+                "perks": [
+                    {
+                        "name": "Scourge_Hook__Pain_Resonance",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/79/IconPerks_scourgeHookPainResonance.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Jagged_Compass",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/53/IconPerks_scourgeHookJaggedCompass.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Floods_of_Rage",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/1c/IconPerks_scourgeHookFloodsOfRage.png"
+                    },
+                    {
+                        "name": "Dead_Man's_Switch",
+                        "img": "https://deadbydaylight.wiki.gg/images/c/c3/IconPerks_deadMansSwitch.png"
+                    }
+                ]
+            },
+            {
+                "build": "Blood_Favor_Build",
+                "perks": [
+                    {
+                        "name": "Hex__Blood_Favour",
+                        "img": "https://deadbydaylight.wiki.gg/images/6/6b/IconPerks_hexBloodFavour.png"
+                    },
+                    {
+                        "name": "Hex__Ruin",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/a2/IconPerks_hexRuin.png"
+                    },
+                    {
+                        "name": "Hex__Thrill_of_the_Hunt",
+                        "img": "https://deadbydaylight.wiki.gg/images/0/02/IconPerks_hexThrillOfTheHunt.png"
+                    },
+                    {
+                        "name": "Grim_Embrace",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/1c/IconPerks_grimEmbrace.png"
+                    }
+                ]
+            },
+            {
+                "build": "Build_with_Basic_Perks",
+                "perks": [
+                    {
+                        "name": "No_Holds_Barred",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/76/IconPerks_NoHoldsBarred.png"
+                    },
+                    {
+                        "name": "No_Way_Out",
+                        "img": "https://deadbydaylight.wiki.gg/images/b/bb/IconPerks_noWayOut.png"
+                    },
+                    {
+                        "name": "Hex__Fortune's_Fool",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/18/IconPerks_hexPlaything.png"
+                    },
+                    {
+                        "name": "Hex__No_One_Escapes_Death",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/af/IconPerks_hexNoOneEscapesDeath.png"
+                    }
+                ]
+            }
+        ],
+        "The_Nemesis": [
+            {
+                "build": "Generic_Build",
+                "perks": [
+                    {
+                        "name": "Corrupt_Intervention",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/10/IconPerks_corruptIntervention.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Pain_Resonance",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/79/IconPerks_scourgeHookPainResonance.png"
+                    },
+                    {
+                        "name": "Grim_Embrace",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/1c/IconPerks_grimEmbrace.png"
+                    },
+                    {
+                        "name": "No_Way_Out",
+                        "img": "https://deadbydaylight.wiki.gg/images/b/bb/IconPerks_noWayOut.png"
+                    }
+                ]
+            },
+            {
+                "build": "Hex_Build",
+                "perks": [
+                    {
+                        "name": "Hex__Blood_Favour",
+                        "img": "https://deadbydaylight.wiki.gg/images/6/6b/IconPerks_hexBloodFavour.png"
+                    },
+                    {
+                        "name": "Hex__Ruin",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/a2/IconPerks_hexRuin.png"
+                    },
+                    {
+                        "name": "Hex__Thrill_of_the_Hunt",
+                        "img": "https://deadbydaylight.wiki.gg/images/0/02/IconPerks_hexThrillOfTheHunt.png"
+                    },
+                    {
+                        "name": "Hex__Undying",
+                        "img": "https://deadbydaylight.wiki.gg/images/f/fe/IconPerks_hexUndying.png"
+                    }
+                ]
+            },
+            {
+                "build": "Multipurpose_Build",
+                "perks": [
+                    {
+                        "name": "THWACK!",
+                        "img": "https://deadbydaylight.wiki.gg/images/b/bb/IconPerks_thwack.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Pain_Resonance",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/79/IconPerks_scourgeHookPainResonance.png"
+                    },
+                    {
+                        "name": "Dead_Man's_Switch",
+                        "img": "https://deadbydaylight.wiki.gg/images/c/c3/IconPerks_deadMansSwitch.png"
+                    },
+                    {
+                        "name": "Agitation",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/ac/IconPerks_agitation.png"
+                    }
+                ]
+            },
+            {
+                "build": "Build_with_Basic_Perks",
+                "perks": [
+                    {
+                        "name": "No_Holds_Barred",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/76/IconPerks_NoHoldsBarred.png"
+                    },
+                    {
+                        "name": "Hex__No_One_Escapes_Death",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/af/IconPerks_hexNoOneEscapesDeath.png"
+                    },
+                    {
+                        "name": "Eruption",
+                        "img": "https://deadbydaylight.wiki.gg/images/d/dd/IconPerks_eruption.png"
+                    },
+                    {
+                        "name": "Lethal_Pursuer",
+                        "img": "https://deadbydaylight.wiki.gg/images/6/61/IconPerks_lethalPursuer.png"
+                    }
+                ]
+            }
+        ],
+        "The_Cenobite": [
+            {
+                "build": "Generic_Build",
+                "perks": [
+                    {
+                        "name": "Lethal_Pursuer",
+                        "img": "https://deadbydaylight.wiki.gg/images/6/61/IconPerks_lethalPursuer.png"
+                    },
+                    {
+                        "name": "Surge",
+                        "img": "https://deadbydaylight.wiki.gg/images/3/3b/IconPerks_surge.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Pain_Resonance",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/79/IconPerks_scourgeHookPainResonance.png"
+                    },
+                    {
+                        "name": "Barbecue_&_Chilli",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/51/IconPerks_barbecueAndChilli.png"
+                    }
+                ]
+            },
+            {
+                "build": "Info_&_Endgame_Build",
+                "perks": [
+                    {
+                        "name": "Tinkerer",
+                        "img": "https://deadbydaylight.wiki.gg/images/d/d9/IconPerks_tinkerer.png"
+                    },
+                    {
+                        "name": "No_Holds_Barred",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/76/IconPerks_NoHoldsBarred.png"
+                    },
+                    {
+                        "name": "No_Way_Out",
+                        "img": "https://deadbydaylight.wiki.gg/images/b/bb/IconPerks_noWayOut.png"
+                    },
+                    {
+                        "name": "Hex__No_One_Escapes_Death",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/af/IconPerks_hexNoOneEscapesDeath.png"
+                    }
+                ]
+            },
+            {
+                "build": "Hex_Build",
+                "perks": [
+                    {
+                        "name": "Hex__Ruin",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/a2/IconPerks_hexRuin.png"
+                    },
+                    {
+                        "name": "Hex__Thrill_of_the_Hunt",
+                        "img": "https://deadbydaylight.wiki.gg/images/0/02/IconPerks_hexThrillOfTheHunt.png"
+                    },
+                    {
+                        "name": "Friends_'til_the_End",
+                        "img": "https://deadbydaylight.wiki.gg/images/b/b3/IconPerks_friendsTilTheEnd.png"
+                    },
+                    {
+                        "name": "Hex__Pentimento",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/5d/IconPerks_hexPentimento.png"
+                    }
+                ]
+            },
+            {
+                "build": "Build_with_Basic_Perks",
+                "perks": [
+                    {
+                        "name": "No_Holds_Barred",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/76/IconPerks_NoHoldsBarred.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Weeping_Wounds",
+                        "img": "https://deadbydaylight.wiki.gg/images/4/4c/IconPerks_scourgeHookWeepingWounds.png"
+                    },
+                    {
+                        "name": "Hex__Fortune's_Fool",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/18/IconPerks_hexPlaything.png"
+                    },
+                    {
+                        "name": "Hex__No_One_Escapes_Death",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/af/IconPerks_hexNoOneEscapesDeath.png"
+                    }
+                ]
+            }
+        ],
+        "The_Artist": [
+            {
+                "build": "Generic_Build",
+                "perks": [
+                    {
+                        "name": "Lethal_Pursuer",
+                        "img": "https://deadbydaylight.wiki.gg/images/6/61/IconPerks_lethalPursuer.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Pain_Resonance",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/79/IconPerks_scourgeHookPainResonance.png"
+                    },
+                    {
+                        "name": "Dead_Man's_Switch",
+                        "img": "https://deadbydaylight.wiki.gg/images/c/c3/IconPerks_deadMansSwitch.png"
+                    },
+                    {
+                        "name": "Barbecue_&_Chilli",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/51/IconPerks_barbecueAndChilli.png"
+                    }
+                ]
+            },
+            {
+                "build": "Scourge_Build",
+                "perks": [
+                    {
+                        "name": "Scourge_Hook__Pain_Resonance",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/79/IconPerks_scourgeHookPainResonance.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Jagged_Compass",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/53/IconPerks_scourgeHookJaggedCompass.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Floods_of_Rage",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/1c/IconPerks_scourgeHookFloodsOfRage.png"
+                    },
+                    {
+                        "name": "Dead_Man's_Switch",
+                        "img": "https://deadbydaylight.wiki.gg/images/c/c3/IconPerks_deadMansSwitch.png"
+                    }
+                ]
+            },
+            {
+                "build": "Defensive_Hex_Build",
+                "perks": [
+                    {
+                        "name": "Hex__Ruin",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/a2/IconPerks_hexRuin.png"
+                    },
+                    {
+                        "name": "Hex__Thrill_of_the_Hunt",
+                        "img": "https://deadbydaylight.wiki.gg/images/0/02/IconPerks_hexThrillOfTheHunt.png"
+                    },
+                    {
+                        "name": "Barbecue_&_Chilli",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/51/IconPerks_barbecueAndChilli.png"
+                    },
+                    {
+                        "name": "Hex__Wretched_Fate",
+                        "img": "https://deadbydaylight.wiki.gg/images/8/81/IconPerks_HexWretchedFate.png"
+                    }
+                ]
+            },
+            {
+                "build": "Build_with_Basic_Perks",
+                "perks": [
+                    {
+                        "name": "Scourge_Hook__Pain_Resonance",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/79/IconPerks_scourgeHookPainResonance.png"
+                    },
+                    {
+                        "name": "Grim_Embrace",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/1c/IconPerks_grimEmbrace.png"
+                    },
+                    {
+                        "name": "No_Holds_Barred",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/76/IconPerks_NoHoldsBarred.png"
+                    },
+                    {
+                        "name": "Hex__No_One_Escapes_Death",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/af/IconPerks_hexNoOneEscapesDeath.png"
+                    }
+                ]
+            }
+        ],
+        "The_Onryo": [
+            {
+                "build": "Generic_Build",
+                "perks": [
+                    {
+                        "name": "Corrupt_Intervention",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/10/IconPerks_corruptIntervention.png"
+                    },
+                    {
+                        "name": "No_Holds_Barred",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/76/IconPerks_NoHoldsBarred.png"
+                    },
+                    {
+                        "name": "Hex__Ruin",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/a2/IconPerks_hexRuin.png"
+                    },
+                    {
+                        "name": "Barbecue_&_Chilli",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/51/IconPerks_barbecueAndChilli.png"
+                    }
+                ]
+            },
+            {
+                "build": "Gen-Kick_Build",
+                "perks": [
+                    {
+                        "name": "Eruption",
+                        "img": "https://deadbydaylight.wiki.gg/images/d/dd/IconPerks_eruption.png"
+                    },
+                    {
+                        "name": "Dragon's_Grip",
+                        "img": "https://deadbydaylight.wiki.gg/images/f/ff/IconPerks_dragonsGrip.png"
+                    },
+                    {
+                        "name": "Oppression",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/a1/IconPerks_oppression.png"
+                    },
+                    {
+                        "name": "Discordance",
+                        "img": "https://deadbydaylight.wiki.gg/images/8/82/IconPerks_discordance.png"
+                    }
+                ]
+            },
+            {
+                "build": "Hex__Everything_Build",
+                "perks": [
+                    {
+                        "name": "Hex__Ruin",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/a2/IconPerks_hexRuin.png"
+                    },
+                    {
+                        "name": "Hex__Face_the_Darkness",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/af/IconPerks_hexFaceTheDarkness.png"
+                    },
+                    {
+                        "name": "Hex__Crowd_Control",
+                        "img": "https://deadbydaylight.wiki.gg/images/f/f1/IconPerks_hexCrowdControl.png"
+                    },
+                    {
+                        "name": "Hex__Thrill_of_the_Hunt",
+                        "img": "https://deadbydaylight.wiki.gg/images/0/02/IconPerks_hexThrillOfTheHunt.png"
+                    }
+                ]
+            },
+            {
+                "build": "Build_with_Basic_Perks",
+                "perks": [
+                    {
+                        "name": "Merciless_Storm",
+                        "img": "https://deadbydaylight.wiki.gg/images/3/36/IconPerks_mercilessStorm.png"
+                    },
+                    {
+                        "name": "Sloppy_Butcher",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/5a/IconPerks_sloppyButcher.png"
+                    },
+                    {
+                        "name": "No_Holds_Barred",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/76/IconPerks_NoHoldsBarred.png"
+                    },
+                    {
+                        "name": "Hex__No_One_Escapes_Death",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/af/IconPerks_hexNoOneEscapesDeath.png"
+                    }
+                ]
+            }
+        ],
+        "The_Dredge": [
+            {
+                "build": "Generic_Build",
+                "perks": [
+                    {
+                        "name": "Corrupt_Intervention",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/10/IconPerks_corruptIntervention.png"
+                    },
+                    {
+                        "name": "Barbecue_&_Chilli",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/51/IconPerks_barbecueAndChilli.png"
+                    },
+                    {
+                        "name": "Sloppy_Butcher",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/5a/IconPerks_sloppyButcher.png"
+                    },
+                    {
+                        "name": "Surge",
+                        "img": "https://deadbydaylight.wiki.gg/images/3/3b/IconPerks_surge.png"
+                    }
+                ]
+            },
+            {
+                "build": "Scourge_Build",
+                "perks": [
+                    {
+                        "name": "Scourge_Hook__Pain_Resonance",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/79/IconPerks_scourgeHookPainResonance.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Jagged_Compass",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/53/IconPerks_scourgeHookJaggedCompass.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Weeping_Wounds",
+                        "img": "https://deadbydaylight.wiki.gg/images/4/4c/IconPerks_scourgeHookWeepingWounds.png"
+                    },
+                    {
+                        "name": "Leverage",
+                        "img": "https://deadbydaylight.wiki.gg/images/c/c6/IconPerks_leverage.png"
+                    }
+                ]
+            },
+            {
+                "build": "Aggressive_Instadown_Build",
+                "perks": [
+                    {
+                        "name": "Corrupt_Intervention",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/10/IconPerks_corruptIntervention.png"
+                    },
+                    {
+                        "name": "Friends_'til_the_End",
+                        "img": "https://deadbydaylight.wiki.gg/images/b/b3/IconPerks_friendsTilTheEnd.png"
+                    },
+                    {
+                        "name": "Hex__No_One_Escapes_Death",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/af/IconPerks_hexNoOneEscapesDeath.png"
+                    },
+                    {
+                        "name": "Brutal_Strength",
+                        "img": "https://deadbydaylight.wiki.gg/images/3/3d/IconPerks_brutalStrength.png"
+                    }
+                ]
+            },
+            {
+                "build": "Build_with_Basic_Perks",
+                "perks": [
+                    {
+                        "name": "No_Holds_Barred",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/76/IconPerks_NoHoldsBarred.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Weeping_Wounds",
+                        "img": "https://deadbydaylight.wiki.gg/images/4/4c/IconPerks_scourgeHookWeepingWounds.png"
+                    },
+                    {
+                        "name": "Spies_from_the_Shadows",
+                        "img": "https://deadbydaylight.wiki.gg/images/b/b1/IconPerks_spiesFromTheShadows.png"
+                    },
+                    {
+                        "name": "Hex__Fortune's_Fool",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/18/IconPerks_hexPlaything.png"
+                    }
+                ]
+            }
+        ],
+        "The_Mastermind": [
+            {
+                "build": "Generic_Build",
+                "perks": [
+                    {
+                        "name": "Corrupt_Intervention",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/10/IconPerks_corruptIntervention.png"
+                    },
+                    {
+                        "name": "Brutal_Strength",
+                        "img": "https://deadbydaylight.wiki.gg/images/3/3d/IconPerks_brutalStrength.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Pain_Resonance",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/79/IconPerks_scourgeHookPainResonance.png"
+                    },
+                    {
+                        "name": "Barbecue_&_Chilli",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/51/IconPerks_barbecueAndChilli.png"
+                    }
+                ]
+            },
+            {
+                "build": "Gen_Stealth_Build",
+                "perks": [
+                    {
+                        "name": "Unforeseen",
+                        "img": "https://deadbydaylight.wiki.gg/images/0/0c/IconPerks_unforeseen.png"
+                    },
+                    {
+                        "name": "Pop_Goes_the_Weasel",
+                        "img": "https://deadbydaylight.wiki.gg/images/0/0f/IconPerks_popGoesTheWeasel.png"
+                    },
+                    {
+                        "name": "Tinkerer",
+                        "img": "https://deadbydaylight.wiki.gg/images/d/d9/IconPerks_tinkerer.png"
+                    },
+                    {
+                        "name": "Eruption",
+                        "img": "https://deadbydaylight.wiki.gg/images/d/dd/IconPerks_eruption.png"
+                    }
+                ]
+            },
+            {
+                "build": "Hex_Build",
+                "perks": [
+                    {
+                        "name": "Hex__Fortune's_Fool",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/18/IconPerks_hexPlaything.png"
+                    },
+                    {
+                        "name": "Hex__Pentimento",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/5d/IconPerks_hexPentimento.png"
+                    },
+                    {
+                        "name": "Hex__Blood_Favour",
+                        "img": "https://deadbydaylight.wiki.gg/images/6/6b/IconPerks_hexBloodFavour.png"
+                    },
+                    {
+                        "name": "Hex__Thrill_of_the_Hunt",
+                        "img": "https://deadbydaylight.wiki.gg/images/0/02/IconPerks_hexThrillOfTheHunt.png"
+                    }
+                ]
+            },
+            {
+                "build": "Build_with_Basic_Perks",
+                "perks": [
+                    {
+                        "name": "No_Holds_Barred",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/76/IconPerks_NoHoldsBarred.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Weeping_Wounds",
+                        "img": "https://deadbydaylight.wiki.gg/images/4/4c/IconPerks_scourgeHookWeepingWounds.png"
+                    },
+                    {
+                        "name": "Hex__Fortune's_Fool",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/18/IconPerks_hexPlaything.png"
+                    },
+                    {
+                        "name": "Hex__No_One_Escapes_Death",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/af/IconPerks_hexNoOneEscapesDeath.png"
+                    }
+                ]
+            }
+        ],
+        "The_Knight": [
+            {
+                "build": "Generic_Build",
+                "perks": [
+                    {
+                        "name": "Hex__Ruin",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/a2/IconPerks_hexRuin.png"
+                    },
+                    {
+                        "name": "Surge",
+                        "img": "https://deadbydaylight.wiki.gg/images/3/3b/IconPerks_surge.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Pain_Resonance",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/79/IconPerks_scourgeHookPainResonance.png"
+                    },
+                    {
+                        "name": "Surveillance",
+                        "img": "https://deadbydaylight.wiki.gg/images/e/eb/IconPerks_surveillance.png"
+                    }
+                ]
+            },
+            {
+                "build": "Aggressive_Info_Build",
+                "perks": [
+                    {
+                        "name": "Discordance",
+                        "img": "https://deadbydaylight.wiki.gg/images/8/82/IconPerks_discordance.png"
+                    },
+                    {
+                        "name": "Tinkerer",
+                        "img": "https://deadbydaylight.wiki.gg/images/d/d9/IconPerks_tinkerer.png"
+                    },
+                    {
+                        "name": "Coup_de_Grâce",
+                        "img": "https://deadbydaylight.wiki.gg/images/b/bd/IconPerks_coupDeGr%C3%A2ce.png"
+                    },
+                    {
+                        "name": "No_Holds_Barred",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/76/IconPerks_NoHoldsBarred.png"
+                    }
+                ]
+            },
+            {
+                "build": "Gen-Trap_Build",
+                "perks": [
+                    {
+                        "name": "Thrilling_Tremors",
+                        "img": "https://deadbydaylight.wiki.gg/images/b/b8/IconPerks_thrillingTremors.png"
+                    },
+                    {
+                        "name": "Pop_Goes_the_Weasel",
+                        "img": "https://deadbydaylight.wiki.gg/images/0/0f/IconPerks_popGoesTheWeasel.png"
+                    },
+                    {
+                        "name": "Unforeseen",
+                        "img": "https://deadbydaylight.wiki.gg/images/0/0c/IconPerks_unforeseen.png"
+                    },
+                    {
+                        "name": "Dragon's_Grip",
+                        "img": "https://deadbydaylight.wiki.gg/images/f/ff/IconPerks_dragonsGrip.png"
+                    }
+                ]
+            },
+            {
+                "build": "Build_with_Basic_Perks",
+                "perks": [
+                    {
+                        "name": "No_Holds_Barred",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/76/IconPerks_NoHoldsBarred.png"
+                    },
+                    {
+                        "name": "Sloppy_Butcher",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/5a/IconPerks_sloppyButcher.png"
+                    },
+                    {
+                        "name": "Nowhere_to_Hide",
+                        "img": "https://deadbydaylight.wiki.gg/images/2/29/IconPerks_nowhereToHide.png"
+                    },
+                    {
+                        "name": "Hex__No_One_Escapes_Death",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/af/IconPerks_hexNoOneEscapesDeath.png"
+                    }
+                ]
+            }
+        ],
+        "The_Skull_Merchant": [
+            {
+                "build": "Generic_Build",
+                "perks": [
+                    {
+                        "name": "Corrupt_Intervention",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/10/IconPerks_corruptIntervention.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Pain_Resonance",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/79/IconPerks_scourgeHookPainResonance.png"
+                    },
+                    {
+                        "name": "Surge",
+                        "img": "https://deadbydaylight.wiki.gg/images/3/3b/IconPerks_surge.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Jagged_Compass",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/53/IconPerks_scourgeHookJaggedCompass.png"
+                    }
+                ]
+            },
+            {
+                "build": "Instadown_Build",
+                "perks": [
+                    {
+                        "name": "Friends_'til_the_End",
+                        "img": "https://deadbydaylight.wiki.gg/images/b/b3/IconPerks_friendsTilTheEnd.png"
+                    },
+                    {
+                        "name": "Make_Your_Choice",
+                        "img": "https://deadbydaylight.wiki.gg/images/6/6b/IconPerks_makeYourChoice.png"
+                    },
+                    {
+                        "name": "Surge",
+                        "img": "https://deadbydaylight.wiki.gg/images/3/3b/IconPerks_surge.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Pain_Resonance",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/79/IconPerks_scourgeHookPainResonance.png"
+                    }
+                ]
+            },
+            {
+                "build": "Hit_&_Run_Stealth_Build",
+                "perks": [
+                    {
+                        "name": "Sloppy_Butcher",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/5a/IconPerks_sloppyButcher.png"
+                    },
+                    {
+                        "name": "A_Nurse's_Calling",
+                        "img": "https://deadbydaylight.wiki.gg/images/f/fe/IconPerks_aNursesCalling.png"
+                    },
+                    {
+                        "name": "Gearhead",
+                        "img": "https://deadbydaylight.wiki.gg/images/f/fd/IconPerks_gearhead.png"
+                    },
+                    {
+                        "name": "No_Holds_Barred",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/76/IconPerks_NoHoldsBarred.png"
+                    }
+                ]
+            },
+            {
+                "build": "Build_with_Basic_Perks",
+                "perks": [
+                    {
+                        "name": "No_Holds_Barred",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/76/IconPerks_NoHoldsBarred.png"
+                    },
+                    {
+                        "name": "Sloppy_Butcher",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/5a/IconPerks_sloppyButcher.png"
+                    },
+                    {
+                        "name": "Leverage",
+                        "img": "https://deadbydaylight.wiki.gg/images/c/c6/IconPerks_leverage.png"
+                    },
+                    {
+                        "name": "Hex__No_One_Escapes_Death",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/af/IconPerks_hexNoOneEscapesDeath.png"
+                    }
+                ]
+            }
+        ],
+        "The_Singularity": [
+            {
+                "build": "Generic_Build",
+                "perks": [
+                    {
+                        "name": "Corrupt_Intervention",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/10/IconPerks_corruptIntervention.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Pain_Resonance",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/79/IconPerks_scourgeHookPainResonance.png"
+                    },
+                    {
+                        "name": "Grim_Embrace",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/1c/IconPerks_grimEmbrace.png"
+                    },
+                    {
+                        "name": "Rapid_Brutality",
+                        "img": "https://deadbydaylight.wiki.gg/images/d/d4/IconPerks_rapidBrutality.png"
+                    }
+                ]
+            },
+            {
+                "build": "Gen_Regression",
+                "perks": [
+                    {
+                        "name": "Scourge_Hook__Pain_Resonance",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/79/IconPerks_scourgeHookPainResonance.png"
+                    },
+                    {
+                        "name": "Surge",
+                        "img": "https://deadbydaylight.wiki.gg/images/3/3b/IconPerks_surge.png"
+                    },
+                    {
+                        "name": "Surveillance",
+                        "img": "https://deadbydaylight.wiki.gg/images/e/eb/IconPerks_surveillance.png"
+                    },
+                    {
+                        "name": "Hex__Ruin",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/a2/IconPerks_hexRuin.png"
+                    }
+                ]
+            },
+            {
+                "build": "Endgame_Build",
+                "perks": [
+                    {
+                        "name": "Friends_'til_the_End",
+                        "img": "https://deadbydaylight.wiki.gg/images/b/b3/IconPerks_friendsTilTheEnd.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Pain_Resonance",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/79/IconPerks_scourgeHookPainResonance.png"
+                    },
+                    {
+                        "name": "No_Way_Out",
+                        "img": "https://deadbydaylight.wiki.gg/images/b/bb/IconPerks_noWayOut.png"
+                    },
+                    {
+                        "name": "Hex__No_One_Escapes_Death",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/af/IconPerks_hexNoOneEscapesDeath.png"
+                    }
+                ]
+            },
+            {
+                "build": "Build_with_Basic_Perks",
+                "perks": [
+                    {
+                        "name": "No_Holds_Barred",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/76/IconPerks_NoHoldsBarred.png"
+                    },
+                    {
+                        "name": "Machine_Learning",
+                        "img": "https://deadbydaylight.wiki.gg/images/0/01/IconPerks_machineLearning.png"
+                    },
+                    {
+                        "name": "Hex__No_One_Escapes_Death",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/af/IconPerks_hexNoOneEscapesDeath.png"
+                    },
+                    {
+                        "name": "Sloppy_Butcher",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/5a/IconPerks_sloppyButcher.png"
+                    }
+                ]
+            }
+        ],
+        "The_Xenomorph": [
+            {
+                "build": "Generic_Build",
+                "perks": [
+                    {
+                        "name": "Corrupt_Intervention",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/10/IconPerks_corruptIntervention.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Pain_Resonance",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/79/IconPerks_scourgeHookPainResonance.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Jagged_Compass",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/53/IconPerks_scourgeHookJaggedCompass.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Floods_of_Rage",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/1c/IconPerks_scourgeHookFloodsOfRage.png"
+                    }
+                ]
+            },
+            {
+                "build": "Hex_Build",
+                "perks": [
+                    {
+                        "name": "Hex__Ruin",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/a2/IconPerks_hexRuin.png"
+                    },
+                    {
+                        "name": "Hex__Thrill_of_the_Hunt",
+                        "img": "https://deadbydaylight.wiki.gg/images/0/02/IconPerks_hexThrillOfTheHunt.png"
+                    },
+                    {
+                        "name": "Hex__Blood_Favour",
+                        "img": "https://deadbydaylight.wiki.gg/images/6/6b/IconPerks_hexBloodFavour.png"
+                    },
+                    {
+                        "name": "Hex__Pentimento",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/5d/IconPerks_hexPentimento.png"
+                    }
+                ]
+            },
+            {
+                "build": "Gen-Control_Build",
+                "perks": [
+                    {
+                        "name": "Discordance",
+                        "img": "https://deadbydaylight.wiki.gg/images/8/82/IconPerks_discordance.png"
+                    },
+                    {
+                        "name": "Tinkerer",
+                        "img": "https://deadbydaylight.wiki.gg/images/d/d9/IconPerks_tinkerer.png"
+                    },
+                    {
+                        "name": "Eruption",
+                        "img": "https://deadbydaylight.wiki.gg/images/d/dd/IconPerks_eruption.png"
+                    },
+                    {
+                        "name": "Pop_Goes_the_Weasel",
+                        "img": "https://deadbydaylight.wiki.gg/images/0/0f/IconPerks_popGoesTheWeasel.png"
+                    }
+                ]
+            },
+            {
+                "build": "Build_with_Basic_Perks",
+                "perks": [
+                    {
+                        "name": "No_Holds_Barred",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/76/IconPerks_NoHoldsBarred.png"
+                    },
+                    {
+                        "name": "Alien_Instinct",
+                        "img": "https://deadbydaylight.wiki.gg/images/3/34/IconPerks_alienInstinct.png"
+                    },
+                    {
+                        "name": "Sloppy_Butcher",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/5a/IconPerks_sloppyButcher.png"
+                    },
+                    {
+                        "name": "Hex__No_One_Escapes_Death",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/af/IconPerks_hexNoOneEscapesDeath.png"
+                    }
+                ]
+            }
+        ],
+        "The_Good_Guy": [
+            {
+                "build": "Generic_Build",
+                "perks": [
+                    {
+                        "name": "Corrupt_Intervention",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/10/IconPerks_corruptIntervention.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Pain_Resonance",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/79/IconPerks_scourgeHookPainResonance.png"
+                    },
+                    {
+                        "name": "Dead_Man's_Switch",
+                        "img": "https://deadbydaylight.wiki.gg/images/c/c3/IconPerks_deadMansSwitch.png"
+                    },
+                    {
+                        "name": "Grim_Embrace",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/1c/IconPerks_grimEmbrace.png"
+                    }
+                ]
+            },
+            {
+                "build": "Simple_Slowdown_&_Info_Build",
+                "perks": [
+                    {
+                        "name": "Hex__Ruin",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/a2/IconPerks_hexRuin.png"
+                    },
+                    {
+                        "name": "Hex__Undying",
+                        "img": "https://deadbydaylight.wiki.gg/images/f/fe/IconPerks_hexUndying.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Jagged_Compass",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/53/IconPerks_scourgeHookJaggedCompass.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Weeping_Wounds",
+                        "img": "https://deadbydaylight.wiki.gg/images/4/4c/IconPerks_scourgeHookWeepingWounds.png"
+                    }
+                ]
+            },
+            {
+                "build": "Aura_Build",
+                "perks": [
+                    {
+                        "name": "Lethal_Pursuer",
+                        "img": "https://deadbydaylight.wiki.gg/images/6/61/IconPerks_lethalPursuer.png"
+                    },
+                    {
+                        "name": "Barbecue_&_Chilli",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/51/IconPerks_barbecueAndChilli.png"
+                    },
+                    {
+                        "name": "I'm_All_Ears",
+                        "img": "https://deadbydaylight.wiki.gg/images/e/e3/IconPerks_imAllEars.png"
+                    },
+                    {
+                        "name": "Grim_Embrace",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/1c/IconPerks_grimEmbrace.png"
+                    }
+                ]
+            },
+            {
+                "build": "Build_with_Basic_Perks",
+                "perks": [
+                    {
+                        "name": "No_Holds_Barred",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/76/IconPerks_NoHoldsBarred.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Weeping_Wounds",
+                        "img": "https://deadbydaylight.wiki.gg/images/4/4c/IconPerks_scourgeHookWeepingWounds.png"
+                    },
+                    {
+                        "name": "Friends_'til_the_End",
+                        "img": "https://deadbydaylight.wiki.gg/images/b/b3/IconPerks_friendsTilTheEnd.png"
+                    },
+                    {
+                        "name": "Hex__No_One_Escapes_Death",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/af/IconPerks_hexNoOneEscapesDeath.png"
+                    }
+                ]
+            }
+        ],
+        "The_Unknown": [
+            {
+                "build": "Generic_Build",
+                "perks": [
+                    {
+                        "name": "Lethal_Pursuer",
+                        "img": "https://deadbydaylight.wiki.gg/images/6/61/IconPerks_lethalPursuer.png"
+                    },
+                    {
+                        "name": "Nowhere_to_Hide",
+                        "img": "https://deadbydaylight.wiki.gg/images/2/29/IconPerks_nowhereToHide.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Pain_Resonance",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/79/IconPerks_scourgeHookPainResonance.png"
+                    },
+                    {
+                        "name": "Pop_Goes_the_Weasel",
+                        "img": "https://deadbydaylight.wiki.gg/images/0/0f/IconPerks_popGoesTheWeasel.png"
+                    }
+                ]
+            },
+            {
+                "build": "Aggressive_Hex_Build",
+                "perks": [
+                    {
+                        "name": "Hex__Blood_Favour",
+                        "img": "https://deadbydaylight.wiki.gg/images/6/6b/IconPerks_hexBloodFavour.png"
+                    },
+                    {
+                        "name": "Hex__Undying",
+                        "img": "https://deadbydaylight.wiki.gg/images/f/fe/IconPerks_hexUndying.png"
+                    },
+                    {
+                        "name": "Hex__Pentimento",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/5d/IconPerks_hexPentimento.png"
+                    },
+                    {
+                        "name": "Hex__Ruin",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/a2/IconPerks_hexRuin.png"
+                    }
+                ]
+            },
+            {
+                "build": "Scourge-Oriented_Build",
+                "perks": [
+                    {
+                        "name": "Scourge_Hook__Pain_Resonance",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/79/IconPerks_scourgeHookPainResonance.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Floods_of_Rage",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/1c/IconPerks_scourgeHookFloodsOfRage.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Jagged_Compass",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/53/IconPerks_scourgeHookJaggedCompass.png"
+                    },
+                    {
+                        "name": "Grim_Embrace",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/1c/IconPerks_grimEmbrace.png"
+                    }
+                ]
+            },
+            {
+                "build": "Build_with_Basic_Perks",
+                "perks": [
+                    {
+                        "name": "No_Holds_Barred",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/76/IconPerks_NoHoldsBarred.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Weeping_Wounds",
+                        "img": "https://deadbydaylight.wiki.gg/images/4/4c/IconPerks_scourgeHookWeepingWounds.png"
+                    },
+                    {
+                        "name": "Unforeseen",
+                        "img": "https://deadbydaylight.wiki.gg/images/0/0c/IconPerks_unforeseen.png"
+                    },
+                    {
+                        "name": "Hex__No_One_Escapes_Death",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/af/IconPerks_hexNoOneEscapesDeath.png"
+                    }
+                ]
+            }
+        ],
+        "The_Lich": [
+            {
+                "build": "Generic_Build",
+                "perks": [
+                    {
+                        "name": "Scourge_Hook__Pain_Resonance",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/79/IconPerks_scourgeHookPainResonance.png"
+                    },
+                    {
+                        "name": "Dead_Man's_Switch",
+                        "img": "https://deadbydaylight.wiki.gg/images/c/c3/IconPerks_deadMansSwitch.png"
+                    },
+                    {
+                        "name": "Barbecue_&_Chilli",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/51/IconPerks_barbecueAndChilli.png"
+                    },
+                    {
+                        "name": "Hex__No_One_Escapes_Death",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/af/IconPerks_hexNoOneEscapesDeath.png"
+                    }
+                ]
+            },
+            {
+                "build": "Hex-Oriented_Build",
+                "perks": [
+                    {
+                        "name": "Scourge_Hook__Pain_Resonance",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/79/IconPerks_scourgeHookPainResonance.png"
+                    },
+                    {
+                        "name": "Hex__Blood_Favour",
+                        "img": "https://deadbydaylight.wiki.gg/images/6/6b/IconPerks_hexBloodFavour.png"
+                    },
+                    {
+                        "name": "Hex__Ruin",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/a2/IconPerks_hexRuin.png"
+                    },
+                    {
+                        "name": "Hex__Undying",
+                        "img": "https://deadbydaylight.wiki.gg/images/f/fe/IconPerks_hexUndying.png"
+                    }
+                ]
+            },
+            {
+                "build": "Instadown_&_Stealth_Build",
+                "perks": [
+                    {
+                        "name": "Friends_'til_the_End",
+                        "img": "https://deadbydaylight.wiki.gg/images/b/b3/IconPerks_friendsTilTheEnd.png"
+                    },
+                    {
+                        "name": "Furtive_Chase",
+                        "img": "https://deadbydaylight.wiki.gg/images/9/94/IconPerks_furtiveChase.png"
+                    },
+                    {
+                        "name": "Surge",
+                        "img": "https://deadbydaylight.wiki.gg/images/3/3b/IconPerks_surge.png"
+                    },
+                    {
+                        "name": "Hex__No_One_Escapes_Death",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/af/IconPerks_hexNoOneEscapesDeath.png"
+                    }
+                ]
+            },
+            {
+                "build": "Build_with_Basic_Perks",
+                "perks": [
+                    {
+                        "name": "Sloppy_Butcher",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/5a/IconPerks_sloppyButcher.png"
+                    },
+                    {
+                        "name": "Spies_from_the_Shadows",
+                        "img": "https://deadbydaylight.wiki.gg/images/b/b1/IconPerks_spiesFromTheShadows.png"
+                    },
+                    {
+                        "name": "Languid_Touch",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/a3/IconPerks_languidTouch.png"
+                    },
+                    {
+                        "name": "No_Holds_Barred",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/76/IconPerks_NoHoldsBarred.png"
+                    }
+                ]
+            }
+        ],
+        "The_Dark_Lord": [
+            {
+                "build": "Generic_Build",
+                "perks": [
+                    {
+                        "name": "Scourge_Hook__Pain_Resonance",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/79/IconPerks_scourgeHookPainResonance.png"
+                    },
+                    {
+                        "name": "Hex__Blood_Favour",
+                        "img": "https://deadbydaylight.wiki.gg/images/6/6b/IconPerks_hexBloodFavour.png"
+                    },
+                    {
+                        "name": "Hex__Ruin",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/a2/IconPerks_hexRuin.png"
+                    },
+                    {
+                        "name": "Discordance",
+                        "img": "https://deadbydaylight.wiki.gg/images/8/82/IconPerks_discordance.png"
+                    }
+                ]
+            },
+            {
+                "build": "Anti-Heal_Build",
+                "perks": [
+                    {
+                        "name": "Scourge_Hook__Pain_Resonance",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/79/IconPerks_scourgeHookPainResonance.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Weeping_Wounds",
+                        "img": "https://deadbydaylight.wiki.gg/images/4/4c/IconPerks_scourgeHookWeepingWounds.png"
+                    },
+                    {
+                        "name": "Leverage",
+                        "img": "https://deadbydaylight.wiki.gg/images/c/c6/IconPerks_leverage.png"
+                    },
+                    {
+                        "name": "Grim_Embrace",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/1c/IconPerks_grimEmbrace.png"
+                    }
+                ]
+            },
+            {
+                "build": "Endgame-Oriented_Build",
+                "perks": [
+                    {
+                        "name": "Barbecue_&_Chilli",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/51/IconPerks_barbecueAndChilli.png"
+                    },
+                    {
+                        "name": "Grim_Embrace",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/1c/IconPerks_grimEmbrace.png"
+                    },
+                    {
+                        "name": "No_Way_Out",
+                        "img": "https://deadbydaylight.wiki.gg/images/b/bb/IconPerks_noWayOut.png"
+                    },
+                    {
+                        "name": "Hex__No_One_Escapes_Death",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/af/IconPerks_hexNoOneEscapesDeath.png"
+                    }
+                ]
+            },
+            {
+                "build": "Build_with_Basic_Perks",
+                "perks": [
+                    {
+                        "name": "Spies_from_the_Shadows",
+                        "img": "https://deadbydaylight.wiki.gg/images/b/b1/IconPerks_spiesFromTheShadows.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Weeping_Wounds",
+                        "img": "https://deadbydaylight.wiki.gg/images/4/4c/IconPerks_scourgeHookWeepingWounds.png"
+                    },
+                    {
+                        "name": "Hex__Wretched_Fate",
+                        "img": "https://deadbydaylight.wiki.gg/images/8/81/IconPerks_HexWretchedFate.png"
+                    },
+                    {
+                        "name": "No_Holds_Barred",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/76/IconPerks_NoHoldsBarred.png"
+                    }
+                ]
+            }
+        ],
+        "The_Houndmaster": [
+            {
+                "build": "Generic_Build",
+                "perks": [
+                    {
+                        "name": "Corrupt_Intervention",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/10/IconPerks_corruptIntervention.png"
+                    },
+                    {
+                        "name": "Barbecue_&_Chilli",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/51/IconPerks_barbecueAndChilli.png"
+                    },
+                    {
+                        "name": "Surge",
+                        "img": "https://deadbydaylight.wiki.gg/images/3/3b/IconPerks_surge.png"
+                    },
+                    {
+                        "name": "Grim_Embrace",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/1c/IconPerks_grimEmbrace.png"
+                    }
+                ]
+            },
+            {
+                "build": "Scourge_Build",
+                "perks": [
+                    {
+                        "name": "Scourge_Hook__Pain_Resonance",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/79/IconPerks_scourgeHookPainResonance.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Jagged_Compass",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/53/IconPerks_scourgeHookJaggedCompass.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Floods_of_Rage",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/1c/IconPerks_scourgeHookFloodsOfRage.png"
+                    },
+                    {
+                        "name": "Lethal_Pursuer",
+                        "img": "https://deadbydaylight.wiki.gg/images/6/61/IconPerks_lethalPursuer.png"
+                    }
+                ]
+            },
+            {
+                "build": "Aggressive_Stall_Build",
+                "perks": [
+                    {
+                        "name": "Scourge_Hook__Pain_Resonance",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/79/IconPerks_scourgeHookPainResonance.png"
+                    },
+                    {
+                        "name": "Dead_Man's_Switch",
+                        "img": "https://deadbydaylight.wiki.gg/images/c/c3/IconPerks_deadMansSwitch.png"
+                    },
+                    {
+                        "name": "Hex__Blood_Favour",
+                        "img": "https://deadbydaylight.wiki.gg/images/6/6b/IconPerks_hexBloodFavour.png"
+                    },
+                    {
+                        "name": "Friends_'til_the_End",
+                        "img": "https://deadbydaylight.wiki.gg/images/b/b3/IconPerks_friendsTilTheEnd.png"
+                    }
+                ]
+            },
+            {
+                "build": "Build_with_Basic_Perks",
+                "perks": [
+                    {
+                        "name": "No_Holds_Barred",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/76/IconPerks_NoHoldsBarred.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Weeping_Wounds",
+                        "img": "https://deadbydaylight.wiki.gg/images/4/4c/IconPerks_scourgeHookWeepingWounds.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Jagged_Compass",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/53/IconPerks_scourgeHookJaggedCompass.png"
+                    },
+                    {
+                        "name": "Hex__No_One_Escapes_Death",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/af/IconPerks_hexNoOneEscapesDeath.png"
+                    }
+                ]
+            }
+        ],
+        "The_Ghoul": [
+            {
+                "build": "Generic_Build",
+                "perks": [
+                    {
+                        "name": "Scourge_Hook__Pain_Resonance",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/79/IconPerks_scourgeHookPainResonance.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Jagged_Compass",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/53/IconPerks_scourgeHookJaggedCompass.png"
+                    },
+                    {
+                        "name": "Eruption",
+                        "img": "https://deadbydaylight.wiki.gg/images/d/dd/IconPerks_eruption.png"
+                    },
+                    {
+                        "name": "Coup_de_Grâce",
+                        "img": "https://deadbydaylight.wiki.gg/images/b/bd/IconPerks_coupDeGr%C3%A2ce.png"
+                    }
+                ]
+            },
+            {
+                "build": "Hex_Build",
+                "perks": [
+                    {
+                        "name": "Hex__Ruin",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/a2/IconPerks_hexRuin.png"
+                    },
+                    {
+                        "name": "Hex__Undying",
+                        "img": "https://deadbydaylight.wiki.gg/images/f/fe/IconPerks_hexUndying.png"
+                    },
+                    {
+                        "name": "Hex__Devour_Hope",
+                        "img": "https://deadbydaylight.wiki.gg/images/c/c9/IconPerks_hexDevourHope.png"
+                    },
+                    {
+                        "name": "Hex__Pentimento",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/5d/IconPerks_hexPentimento.png"
+                    }
+                ]
+            },
+            {
+                "build": "Simple_Aura_Build",
+                "perks": [
+                    {
+                        "name": "Lethal_Pursuer",
+                        "img": "https://deadbydaylight.wiki.gg/images/6/61/IconPerks_lethalPursuer.png"
+                    },
+                    {
+                        "name": "Alien_Instinct",
+                        "img": "https://deadbydaylight.wiki.gg/images/3/34/IconPerks_alienInstinct.png"
+                    },
+                    {
+                        "name": "Dead_Man's_Switch",
+                        "img": "https://deadbydaylight.wiki.gg/images/c/c3/IconPerks_deadMansSwitch.png"
+                    },
+                    {
+                        "name": "Grim_Embrace",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/1c/IconPerks_grimEmbrace.png"
+                    }
+                ]
+            },
+            {
+                "build": "Build_with_Basic_Perks",
+                "perks": [
+                    {
+                        "name": "No_Holds_Barred",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/76/IconPerks_NoHoldsBarred.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Weeping_Wounds",
+                        "img": "https://deadbydaylight.wiki.gg/images/4/4c/IconPerks_scourgeHookWeepingWounds.png"
+                    },
+                    {
+                        "name": "Spies_from_the_Shadows",
+                        "img": "https://deadbydaylight.wiki.gg/images/b/b1/IconPerks_spiesFromTheShadows.png"
+                    },
+                    {
+                        "name": "Hex__Fortune's_Fool",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/18/IconPerks_hexPlaything.png"
+                    }
+                ]
+            }
+        ],
+        "The_Animatronic": [
+            {
+                "build": "Generic_Build",
+                "perks": [
+                    {
+                        "name": "Scourge_Hook__Pain_Resonance",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/79/IconPerks_scourgeHookPainResonance.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Jagged_Compass",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/53/IconPerks_scourgeHookJaggedCompass.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Weeping_Wounds",
+                        "img": "https://deadbydaylight.wiki.gg/images/4/4c/IconPerks_scourgeHookWeepingWounds.png"
+                    },
+                    {
+                        "name": "Hex__Ruin",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/a2/IconPerks_hexRuin.png"
+                    }
+                ]
+            },
+            {
+                "build": "Hex_Build",
+                "perks": [
+                    {
+                        "name": "Hex__Ruin",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/a2/IconPerks_hexRuin.png"
+                    },
+                    {
+                        "name": "Hex__Blood_Favour",
+                        "img": "https://deadbydaylight.wiki.gg/images/6/6b/IconPerks_hexBloodFavour.png"
+                    },
+                    {
+                        "name": "Hex__Undying",
+                        "img": "https://deadbydaylight.wiki.gg/images/f/fe/IconPerks_hexUndying.png"
+                    },
+                    {
+                        "name": "Hex__Retribution",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/ab/IconPerks_hexRetribution.png"
+                    }
+                ]
+            },
+            {
+                "build": "Breaking_Speed_Build",
+                "perks": [
+                    {
+                        "name": "Lethal_Pursuer",
+                        "img": "https://deadbydaylight.wiki.gg/images/6/61/IconPerks_lethalPursuer.png"
+                    },
+                    {
+                        "name": "Nowhere_to_Hide",
+                        "img": "https://deadbydaylight.wiki.gg/images/2/29/IconPerks_nowhereToHide.png"
+                    },
+                    {
+                        "name": "Eruption",
+                        "img": "https://deadbydaylight.wiki.gg/images/d/dd/IconPerks_eruption.png"
+                    },
+                    {
+                        "name": "Fire_Up",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/5c/IconPerks_fireUp.png"
+                    }
+                ]
+            },
+            {
+                "build": "Build_with_Basic_Perks",
+                "perks": [
+                    {
+                        "name": "No_Holds_Barred",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/76/IconPerks_NoHoldsBarred.png"
+                    },
+                    {
+                        "name": "Scourge_Hook__Weeping_Wounds",
+                        "img": "https://deadbydaylight.wiki.gg/images/4/4c/IconPerks_scourgeHookWeepingWounds.png"
+                    },
+                    {
+                        "name": "Phantom_Fear",
+                        "img": "https://deadbydaylight.wiki.gg/images/c/c5/IconPerks_PhantomFear.png"
+                    },
+                    {
+                        "name": "Hex__No_One_Escapes_Death",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/af/IconPerks_hexNoOneEscapesDeath.png"
+                    }
+                ]
+            }
+        ]
+    },
+    "survivors": {
+        "Solo_Survivors": [
+            {
+                "build": "Non-teachable_Starter_Build",
+                "perks": [
+                    {
+                        "name": "Kindred",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/a8/IconPerks_kindred.png"
+                    },
+                    {
+                        "name": "Déjà_Vu",
+                        "img": "https://deadbydaylight.wiki.gg/images/8/89/IconPerks_dejaVu.png"
+                    },
+                    {
+                        "name": "We'll_Make_It",
+                        "img": "https://deadbydaylight.wiki.gg/images/8/8a/IconPerks_wellMakeIt.png"
+                    },
+                    {
+                        "name": "Dark_Sense",
+                        "img": "https://deadbydaylight.wiki.gg/images/9/92/IconPerks_darkSense.png"
+                    }
+                ]
+            },
+            {
+                "build": "Beginner_Solo_Build",
+                "perks": [
+                    {
+                        "name": "Kindred",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/a8/IconPerks_kindred.png"
+                    },
+                    {
+                        "name": "Alert",
+                        "img": "https://deadbydaylight.wiki.gg/images/7/71/IconPerks_alert.png"
+                    },
+                    {
+                        "name": "Lithe",
+                        "img": "https://deadbydaylight.wiki.gg/images/c/cc/IconPerks_lithe.png"
+                    },
+                    {
+                        "name": "Déjà_Vu",
+                        "img": "https://deadbydaylight.wiki.gg/images/8/89/IconPerks_dejaVu.png"
+                    }
+                ]
+            },
+            {
+                "build": "All_Purpose_Solo_Build",
+                "perks": [
+                    {
+                        "name": "Kindred",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/a8/IconPerks_kindred.png"
+                    },
+                    {
+                        "name": "Decisive_Strike",
+                        "img": "https://deadbydaylight.wiki.gg/images/e/ee/IconPerks_decisiveStrike.png"
+                    },
+                    {
+                        "name": "Lithe",
+                        "img": "https://deadbydaylight.wiki.gg/images/c/cc/IconPerks_lithe.png"
+                    },
+                    {
+                        "name": "Windows_of_Opportunity",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/17/IconPerks_windowsOfOpportunity.png"
+                    }
+                ]
+            },
+            {
+                "build": "Heavy_Info_Solo_Build",
+                "perks": [
+                    {
+                        "name": "Kindred",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/a8/IconPerks_kindred.png"
+                    },
+                    {
+                        "name": "Open-Handed",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/5d/IconPerks_open-Handed.png"
+                    },
+                    {
+                        "name": "Sprint_Burst",
+                        "img": "https://deadbydaylight.wiki.gg/images/e/e4/IconPerks_sprintBurst.png"
+                    },
+                    {
+                        "name": "Windows_of_Opportunity",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/17/IconPerks_windowsOfOpportunity.png"
+                    }
+                ]
+            }
+        ],
+        "Builds_for_Teams": [
+            {
+                "build": "All_Purpose_Team_Build",
+                "perks": [
+                    {
+                        "name": "Unbreakable",
+                        "img": "https://deadbydaylight.wiki.gg/images/4/4a/IconPerks_unbreakable.png"
+                    },
+                    {
+                        "name": "Lithe",
+                        "img": "https://deadbydaylight.wiki.gg/images/c/cc/IconPerks_lithe.png"
+                    },
+                    {
+                        "name": "Resurgence",
+                        "img": "https://deadbydaylight.wiki.gg/images/f/f3/IconPerks_resurgence.png"
+                    },
+                    {
+                        "name": "Decisive_Strike",
+                        "img": "https://deadbydaylight.wiki.gg/images/e/ee/IconPerks_decisiveStrike.png"
+                    }
+                ]
+            },
+            {
+                "build": "Tunnel_Prevention_Build",
+                "perks": [
+                    {
+                        "name": "Unbreakable",
+                        "img": "https://deadbydaylight.wiki.gg/images/4/4a/IconPerks_unbreakable.png"
+                    },
+                    {
+                        "name": "Shoulder_the_Burden",
+                        "img": "https://deadbydaylight.wiki.gg/images/3/3a/IconPerks_shoulderTheBurden.png"
+                    },
+                    {
+                        "name": "Decisive_Strike",
+                        "img": "https://deadbydaylight.wiki.gg/images/e/ee/IconPerks_decisiveStrike.png"
+                    },
+                    {
+                        "name": "We'll_Make_It",
+                        "img": "https://deadbydaylight.wiki.gg/images/8/8a/IconPerks_wellMakeIt.png"
+                    }
+                ]
+            },
+            {
+                "build": "Gen-Oriented_Build",
+                "perks": [
+                    {
+                        "name": "Déjà_Vu",
+                        "img": "https://deadbydaylight.wiki.gg/images/8/89/IconPerks_dejaVu.png"
+                    },
+                    {
+                        "name": "Poised",
+                        "img": "https://deadbydaylight.wiki.gg/images/5/52/IconPerks_poised.png"
+                    },
+                    {
+                        "name": "Adrenaline",
+                        "img": "https://deadbydaylight.wiki.gg/images/f/f7/IconPerks_adrenaline.png"
+                    },
+                    {
+                        "name": "Resurgence",
+                        "img": "https://deadbydaylight.wiki.gg/images/f/f3/IconPerks_resurgence.png"
+                    }
+                ]
+            },
+            {
+                "build": "Chase-Oriented_Build",
+                "perks": [
+                    {
+                        "name": "Sprint_Burst",
+                        "img": "https://deadbydaylight.wiki.gg/images/e/e4/IconPerks_sprintBurst.png"
+                    },
+                    {
+                        "name": "Windows_of_Opportunity",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/17/IconPerks_windowsOfOpportunity.png"
+                    },
+                    {
+                        "name": "Vigil",
+                        "img": "https://deadbydaylight.wiki.gg/images/4/46/IconPerks_vigil.png"
+                    },
+                    {
+                        "name": "Bond",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/a0/IconPerks_bond.png"
+                    }
+                ]
+            }
+        ],
+        "Advanced_Builds": [
+            {
+                "build": "Self-Heal_Build",
+                "perks": [
+                    {
+                        "name": "Kindred",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/a8/IconPerks_kindred.png"
+                    },
+                    {
+                        "name": "Botany_Knowledge",
+                        "img": "https://deadbydaylight.wiki.gg/images/1/1e/IconPerks_botanyKnowledge.png"
+                    },
+                    {
+                        "name": "Strength_in_Shadows",
+                        "img": "https://deadbydaylight.wiki.gg/images/e/e2/IconPerks_strengthInShadows.png"
+                    },
+                    {
+                        "name": "Off_the_Record",
+                        "img": "https://deadbydaylight.wiki.gg/images/9/9e/IconPerks_offTheRecord.png"
+                    }
+                ]
+            },
+            {
+                "build": "Go-down-in-Basement_Build",
+                "perks": [
+                    {
+                        "name": "Overcome",
+                        "img": "https://deadbydaylight.wiki.gg/images/8/82/IconPerks_overcome.png"
+                    },
+                    {
+                        "name": "Wicked",
+                        "img": "https://deadbydaylight.wiki.gg/images/8/8f/IconPerks_wicked.png"
+                    },
+                    {
+                        "name": "Decisive_Strike",
+                        "img": "https://deadbydaylight.wiki.gg/images/e/ee/IconPerks_decisiveStrike.png"
+                    },
+                    {
+                        "name": "Unbreakable",
+                        "img": "https://deadbydaylight.wiki.gg/images/4/4a/IconPerks_unbreakable.png"
+                    }
+                ]
+            },
+            {
+                "build": "Solo_Escape_Build",
+                "perks": [
+                    {
+                        "name": "Inner_Strength",
+                        "img": "https://deadbydaylight.wiki.gg/images/4/47/IconPerks_innerStrength.png"
+                    },
+                    {
+                        "name": "Sole_Survivor",
+                        "img": "https://deadbydaylight.wiki.gg/images/8/8e/IconPerks_soleSurvivor.png"
+                    },
+                    {
+                        "name": "Clairvoyance",
+                        "img": "https://deadbydaylight.wiki.gg/images/9/91/IconPerks_clairvoyance.png"
+                    },
+                    {
+                        "name": "Kindred",
+                        "img": "https://deadbydaylight.wiki.gg/images/a/a8/IconPerks_kindred.png"
+                    }
+                ]
+            },
+            {
+                "build": "Heavy_Anti-tunnel_Build",
+                "perks": [
+                    {
+                        "name": "Adrenaline",
+                        "img": "https://deadbydaylight.wiki.gg/images/f/f7/IconPerks_adrenaline.png"
+                    },
+                    {
+                        "name": "Off_the_Record",
+                        "img": "https://deadbydaylight.wiki.gg/images/9/9e/IconPerks_offTheRecord.png"
+                    },
+                    {
+                        "name": "Decisive_Strike",
+                        "img": "https://deadbydaylight.wiki.gg/images/e/ee/IconPerks_decisiveStrike.png"
+                    },
+                    {
+                        "name": "Lithe",
+                        "img": "https://deadbydaylight.wiki.gg/images/c/cc/IconPerks_lithe.png"
+                    }
+                ]
+            }
+        ]
+    }
+}

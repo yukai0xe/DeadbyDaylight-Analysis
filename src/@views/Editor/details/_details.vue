@@ -17,11 +17,11 @@ import { NTabs, NTabPane } from "naive-ui";
 import { ref, onBeforeMount, onUpdated } from "vue";
 import perksStore from "@/vuex/perksStore";
 import { useStore } from "vuex";
-import Perk from "@/@views/editor/details/perk.vue";
-import Info from "@/@views/editor/details//info.vue";
-import AddOnes from "@/@views/editor/details//add_ones.vue";
-import Lore from "@/@views/editor/details//lore.vue";
-import Settings from "@/@views/editor/details//settings.vue";
+import Perk from "@/@views/Editor/details/perk.vue";
+import Info from "@/@views/Editor/details/info.vue";
+import AddOnes from "@/@views/Editor/details/add_ones.vue";
+import Lore from "@/@views/Editor/details/lore.vue";
+import Settings from "@/@views/Editor/details/settings.vue";
 const tabsComponent = {
   Perk,
   Info,

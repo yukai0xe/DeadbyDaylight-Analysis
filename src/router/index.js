@@ -12,12 +12,12 @@ const routes = [
   {
     path:"/login",
     name:"Login",
-    component:()=>import("@/@views/authorization/Login.vue")
+    component:()=>import("@/@views/Authorization/Login.vue")
   },
   {
     path:"/register",
     name:"Register",
-    component:()=>import("@/@views/authorization/Register.vue")
+    component:()=>import("@/@views/Authorization/Register.vue")
   },
   {
     path:"/characters",
@@ -37,7 +37,7 @@ const routes = [
   {
     path:"/editor",
     name:"Editor",
-    component:() => import("@/@views/editor/Control.vue"),
+    component:() => import("@/@views/Editor/Control.vue"),
     meta:{ "requiresAuth": true }
   },
 ];
