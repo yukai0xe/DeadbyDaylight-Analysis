@@ -1,5 +1,4 @@
 <template>
-  <Navbar></Navbar>
   <div class="login">
     <section>
         <div class="container">
@@ -21,7 +20,6 @@
 <script setup>
 import { onMounted, reactive } from "vue";
 import { useRouter } from "vue-router";
-import Navbar from "../../@components/Navbar/DBDNavbar.vue";
 import "@/firebase";
 import firebase from "firebase/compat/app";
 import "firebase/compat/auth";

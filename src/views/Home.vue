@@ -1,5 +1,4 @@
 <template>
-  <DBDNavbar></DBDNavbar>
   <div id="landing-container">
     <div class="banner">
       <div class="content">
@@ -10,10 +9,6 @@
     </div>
   </div>
 </template>
-
-<script setup>
-import DBDNavbar from "@/@components/Navbar/DBDNavbar.vue";
-</script>
 
 <style lang="scss" scoped>
 @import "../assets/scss/home.scss";

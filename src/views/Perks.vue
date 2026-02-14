@@ -1,5 +1,4 @@
 <template>
-  <DBDNavbar></DBDNavbar>
   <div class="perks flex justify-content-center align-items-center flex-column">
     <div v-if="!perks.length">
       <img src="@/assets/picture/loading.gif" alt="loading">
@@ -49,7 +48,6 @@
 
 <script setup>
 import { NGrid, NGridItem, NButton } from "naive-ui";
-import DBDNavbar from "@/@components/Navbar/DBDNavbar.vue";
 import { ref, onMounted, computed, onBeforeUnmount } from "vue";
 import { useStore } from "vuex";
 import perksStore from "@/vuex/perksStore";

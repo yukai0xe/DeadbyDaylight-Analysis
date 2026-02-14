@@ -1,5 +1,4 @@
 <template>
-    <DBDNavbar></DBDNavbar>
     <div class="characters-container">
         <section class="killer w-full z-1 px-3 py-8 flex justify-content-center align-items-center flex-column">
         <n-space class="w-5 flex justify-content-center">
@@ -37,7 +36,6 @@
 </template>
 
 <script setup>
-import DBDNavbar from "@/@components/Navbar/DBDNavbar.vue";
 import { NDropdown, NSpace, NButton, NInput } from "naive-ui";
 import { ref, onMounted, onUpdated, computed } from "vue";
 import { useStore } from "vuex";

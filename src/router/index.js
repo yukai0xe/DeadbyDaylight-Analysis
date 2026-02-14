@@ -5,42 +5,42 @@ import "firebase/compat/auth";
 
 const routes = [
   {
-    path: "/",
-    name: "Home",
-    component:()=> import("@/@views/Home.vue"),
+    path: '/',
+    name: 'Home',
+    component: () => import('@/views/Home.vue'),
+    meta: { layout: 'default' }
   },
   {
-    path:"/login",
-    name:"Login",
-    component:()=>import("@/@views/Authorization/Login.vue")
+    path: '/login',
+    name: 'Login',
+    component: () => import('@/views/Authorization/Login.vue'),
+    meta: { layout: 'default' }
   },
   {
-    path:"/register",
-    name:"Register",
-    component:()=>import("@/@views/Authorization/Register.vue")
+    path: '/register',
+    name: 'Register',
+    component: () => import('@/views/Authorization/Register.vue'),
+    meta: { layout: 'default' }
   },
   {
-    path:"/characters",
-    name:"Characters",
-    component:()=> import("@/@views/character/Main.vue")
+    path: '/characters',
+    name: 'Characters',
+    component: () => import('@/views/character/Main.vue'),
+    meta: { layout: 'default' }
   },
   {
-    path:"/character/:record_option",
-    name: "Record_option",
-    component:()=> import("@/@views/character/Character.vue"),
+    path: '/perks',
+    name: 'Perks',
+    component: () => import('@/views/Perks.vue'),
+    meta: { layout: 'default' }
   },
   {
-    path:"/perks",
-    name:"Perks",
-    component:()=> import("@/@views/Perks.vue"),
-  },
-  {
-    path:"/editor",
-    name:"Editor",
-    component:() => import("@/@views/Editor/Control.vue"),
-    meta:{ "requiresAuth": true }
-  },
-];
+    path: '/editor',
+    name: 'Editor',
+    component: () => import('@/views/Editor/Control.vue'),
+    meta: { requiresAuth: true }
+  }
+]
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),

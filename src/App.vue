@@ -2,20 +2,31 @@
   <n-config-provider :theme="darkTheme">
     <n-notification-provider>
       <div class="app">
-        <router-view :key="store.state.character.data.character_id"/>
+        <component :is="layout">
+          <router-view :key="store.state.character.data.character_id" />
+        </component>
       </div>
     </n-notification-provider>
   </n-config-provider>
 </template>
 
 <script setup>
+import DefaultLayout from "@/layouts/DefaultLayout.vue";
 import { darkTheme, NConfigProvider, NNotificationProvider } from 'naive-ui'
-import { onBeforeMount } from "vue";
+import { computed, onBeforeMount } from "vue";
 import { useStore } from "vuex";
+import { useRoute } from "vue-router";
 import characterStore from "@/vuex/characterStore";
 import "@/assets/scss/index.scss";
 
+const route = useRoute()
 const store = useStore();
+const layoutMap = {
+  default: DefaultLayout,
+}
+const layout = computed(() => {
+  return layoutMap[route.meta.layout || 'default']
+})
 onBeforeMount(() => {
   if(!store.state.character) store.registerModule("character", characterStore);
 });
