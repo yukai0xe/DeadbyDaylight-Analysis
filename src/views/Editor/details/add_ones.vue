@@ -96,7 +96,7 @@
 </template>
 
 <script setup>
-import store from '@/vuex/store';
+import store from '@/store/store';
 import { NDataTable, NButton, NModal, NForm, NFormItem, NUpload, NInput, NSkeleton, useNotification } from 'naive-ui';
 import { computed, ref, h } from "vue";
 import { cloneDeep } from 'lodash-es';

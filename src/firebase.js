@@ -3,22 +3,15 @@ import { getFirestore, collection } from "firebase/firestore";
 import { getStorage, getDownloadURL  } from "firebase/storage";
 
 /* code from our Firebase console */
-const firebaseConfig = {
-  apiKey: "AIzaSyCSAHslHTQRCj3IMX_1Kx6T22uL_VQhfMo",
-  authDomain: "deadbydaylightrecords.firebaseapp.com",
-  projectId: "deadbydaylightrecords",
-  storageBucket: "deadbydaylightrecords.appspot.com",
-  messagingSenderId: "315613574552",
-  appId: "1:315613574552:web:d5127c263f29e3d96b67ed",
-  measurementId: "G-F56R2WE88N"
-};
+const firebaseConfig = {}
 // Initialize Firebase
 
 const firebaseApp = firebase.initializeApp(firebaseConfig);
 var db = getFirestore(firebaseApp);
 const storage = getStorage(firebaseApp);
 const killersColRef = collection(db,"killers");
-const skillsColRef = collection(db,"skills");
+const skillsColRef = collection(db, "skills");
+const perksColRef = collection(db, "perks");
 const videosColRef = collection(db,"videos");
 
 const download = (pathReference, list) => {
@@ -32,5 +25,5 @@ const download = (pathReference, list) => {
 };
 
 export{
-  storage, killersColRef, skillsColRef, videosColRef, download, db
+  storage, killersColRef, skillsColRef, perksColRef, videosColRef, download, db
 };

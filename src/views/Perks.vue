@@ -5,83 +5,79 @@
     </div>
     <div class="illustrated">
       <div class="scroll">
-        <n-grid :cols="16" v-for="_ in 2" :key="_">
-          <n-grid-item v-for="(perk, idx) in perks" :key="idx">
-            <div
-              class="bg w-full h-full"
-              :class="{'item': !isClick[idx], 'active': isClick[idx]}"
-              @click="clickPerk(perk, idx)" 
-              :title="perk.name"
-              
-            >
-              <img class="w-full" :src="perk.icon" alt="">
-            </div>
-          </n-grid-item>
-        </n-grid>
+        <Marquee
+          :selected="selectedPerksId"
+          :rows="marqueeRows"
+          :items="marqueeItems"
+          @select="clickPerk"
+        />
       </div>
     </div>
 
     <div class="infor flex justify-content-center align-items-center flex-column p-5">
       <h1>Perks INFORMATION</h1>
       <hr class="outDialog">
-      <div v-if="perksCount !== 0" class="my-2">
+      <div v-if="perksCount !== 0" class="my-5">
         <n-button class="mx-2" type="tertiary" @click="clearPerksClick">{{ perksCount }}</n-button>
         <n-button class="mx-2" type="tertiary" @click="clearPerksClick">Clear All</n-button>
       </div>
       <div class="nonePerks p-8" v-if="perksCount == 0">Please Click Perks Above</div>
       <div
-        class="inforBox flex justify-content-center align-items-center" 
+        class="inforBox flex justify-content-center align-items-center mb-5" 
         v-else 
         v-for="(perk, index) in perksClick" 
         :key="index"
       >
-        <h1 class="mx-5">{{perk.usefulness}}</h1>
-        <img class="mx-5" :src="perk.icon" alt="">
-        <div class="text flex justify-content-center align-items-start flex-column p-5 w-6">
-          <h2>{{perk.name}}</h2>
-          <p> {{perk.illustrate}} </p>
-        </div>
+       <PerkBox :perk="perk"/>
       </div>
     </div>
   </div>
 </template>
 
-<script setup>
-import { NGrid, NGridItem, NButton } from "naive-ui";
+<script setup lang="ts">
+import { NButton } from "naive-ui";
+import Marquee from "@/components/marquee.vue";
+import PerkBox from "@/components/perkBox.vue";
 import { ref, onMounted, computed, onBeforeUnmount } from "vue";
 import { useStore } from "vuex";
-import perksStore from "@/vuex/perksStore";
+import perksStore from "@/store/perksStore";
+import { Perk } from "@/types/perks";
+import { MarqueeRowType } from "@/types/components";
 
 const store = useStore();
-const clickIndex = ref([]);
-const perksClick = ref([]);
-const isClick = ref([false]);
-const perks = computed(() => store.state.perks ? store.state.perks.fbPerks : []);
-const perksCount = computed(() => perksClick.value.length ? `已選 ${perksClick.value.length}` : 0);
+const marqueeRows: MarqueeRowType[] = [
+  { speed: "100s", reverse: false },
+  { speed: "100s", reverse: true },
+  { speed: "100s", reverse: false },
+  { speed: "100s", reverse: true },
+  { speed: "100s", reverse: false },
+];
+const perks = computed<Perk[]>(() => {
+  return store.state.perks?.fbPerks ?? [];
+});
+const perksCount = computed(() => selectedPerksId.value.size > 0 ? `已選 ${selectedPerksId.value.size}` : 0);
+const marqueeItems = computed(() => perks.value.map(perk => ({
+  id: perk.id,
+  icon: perk.icon,
+  title: perk.name,
+})));
+const selectedPerksId = ref<Set<string>>(new Set());
+const perksClick = computed(() => {
+  return perks.value.filter(perk => selectedPerksId.value.has(perk.id));
+});
 
-// 技能點擊
-const clickPerk = (e, n) => {
-  isClick.value[n] = !isClick.value[n];
-  if(isClick.value[n]){
-    perksClick.value.unshift(e);
-    clickIndex.value.unshift(n);
-  }else{
-    for(let i=0; i<perksClick.value.length;i++){
-      if(perksClick.value[i].name == e.name){
-        perksClick.value.splice(i,1);
-        clickIndex.value.splice(i,1);
-      } else console.log("false");
-    }
+const clickPerk = (id: string) => {
+  if (selectedPerksId.value.has(id)) {
+    selectedPerksId.value.delete(id);
+  } else {
+    selectedPerksId.value.add(id);
   }
 };
 
-// 清除所選技能
 const clearPerksClick = () => {
-  isClick.value = [false];
-  perksClick.value = [];
+  selectedPerksId.value.clear();
 };
 
-// 生命週期
 onMounted(() => {
   if(!store.state.perks) store.registerModule("perks", perksStore);
   store.dispatch("perks/GETDATA");

@@ -16,7 +16,7 @@ import { darkTheme, NConfigProvider, NNotificationProvider } from 'naive-ui'
 import { computed, onBeforeMount } from "vue";
 import { useStore } from "vuex";
 import { useRoute } from "vue-router";
-import characterStore from "@/vuex/characterStore";
+import characterStore from "@/store/characterStore";
 import "@/assets/scss/index.scss";
 
 const route = useRoute()

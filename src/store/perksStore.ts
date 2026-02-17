@@ -1,30 +1,39 @@
 import { onSnapshot, addDoc, updateDoc, doc } from "firebase/firestore";
-import { skillsColRef, storage } from "../firebase";
+import { skillsColRef, perksColRef, storage } from "../firebase";
 import { ref as r, uploadBytes } from "firebase/storage";
+import { Perk } from "@/types/perks";
+
+interface PerksState {
+    fbPerks: Perk[];
+}
 
 export default{
     namespaced: true,
-    state:{
+    state: (): PerksState => ({
         fbPerks: []
-    },
+    }),
+
     mutations:{
         SETDATA(state, data){
             state.fbPerks = data;
         }
     },
+
     actions:{
         GETDATA(context){
-            onSnapshot(skillsColRef, (querySnapshot) => {
-                let tmpPerks = [];
+            onSnapshot(perksColRef, (querySnapshot) => {
+                let tmpPerks: Perk[] = [];
                 querySnapshot.forEach((doc) => {
-                  const perk = {
-                    id: doc.id,
-                    name: doc.data().name,
-                    usefulness: doc.data().usefulness,
-                    icon: doc.data().icon,
-                    illustrate: doc.data().illustrate
-                  };
-                  tmpPerks.push(perk);
+                    const data = doc.data() as Perk;
+                    const perk: Perk = {
+                        id: doc.id,
+                        name: data.name,
+                        icon: data.icon,
+                        description: data.description,
+                        character: data.character,
+                        characterPortrait: data.characterPortrait
+                    };
+                    tmpPerks.push(perk);
                 });
                 context.commit("SETDATA", tmpPerks);
               });

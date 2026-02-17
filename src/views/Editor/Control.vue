@@ -44,7 +44,7 @@ import "@/firebase";
 import firebase from "firebase/compat/app";
 import "firebase/compat/auth";
 import { useStore } from "vuex";
-import accountStore from "@/vuex/accountStore";
+import accountStore from "@/store/accountStore";
 
 const user_name = computed(() => store.state.account ? store.state.account.data.email : null);
 const router = useRouter();

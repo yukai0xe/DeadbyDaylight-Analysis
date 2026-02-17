@@ -15,7 +15,7 @@
 <script setup>
 import { NTabs, NTabPane } from "naive-ui";
 import { ref, onBeforeMount, onUpdated } from "vue";
-import perksStore from "@/vuex/perksStore";
+import perksStore from "@/store/perksStore";
 import { useStore } from "vuex";
 import Perk from "@/@views/Editor/details/perk.vue";
 import Info from "@/@views/Editor/details/info.vue";

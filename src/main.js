@@ -4,7 +4,7 @@ import router from "./router";
 import "./interceptors/axios";
 import { Swiper, SwiperSlide } from "vue-awesome-swiper";
 import "swiper/swiper-bundle.css";
-import store from "./vuex/store";
+import store from "./store/store";
 import VueCropper from "vue-cropper";
 import axios from "axios";
 import "@/assets/scss/index.scss";
