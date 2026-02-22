@@ -3,7 +3,17 @@
     <ul class="flex flex-row list-none">
       <li><router-link to="/">Home</router-link></li>
       <li><router-link to="/characters">Characters</router-link></li>
-      <li><router-link to="/wiki/perks">Wiki</router-link></li>
+      <li class="dropdown">
+        <span class="dropdown-title">Wiki ▾</span>
+        <ul class="dropdown-menu">
+          <li>
+            <router-link to="/wiki/perks">Perks</router-link>
+          </li>
+          <li>
+            <router-link to="/wiki/addOns">Add-Ons</router-link>
+          </li>
+        </ul>
+      </li>
     </ul>
   </div>
 </template>
