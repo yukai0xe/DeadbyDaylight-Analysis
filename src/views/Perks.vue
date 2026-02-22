@@ -82,7 +82,9 @@ onMounted(() => {
   if(!store.state.perks) store.registerModule("perks", perksStore);
   store.dispatch("perks/GETDATA");
 });
-onBeforeUnmount(() => store.unregisterModule("perks"));
+onBeforeUnmount(() => {
+  store.unregisterModule("perks")
+});
 </script>
 
 <style lang="scss" scoped>

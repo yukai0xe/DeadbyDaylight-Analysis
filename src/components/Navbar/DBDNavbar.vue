@@ -3,7 +3,7 @@
     <ul class="flex flex-row list-none">
       <li><router-link to="/">Home</router-link></li>
       <li><router-link to="/characters">Characters</router-link></li>
-      <li><router-link to="/wiki">Wiki</router-link></li>
+      <li><router-link to="/wiki/perks">Wiki</router-link></li>
     </ul>
   </div>
 </template>

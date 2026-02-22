@@ -12,6 +12,7 @@ const storage = getStorage(firebaseApp);
 const killersColRef = collection(db,"killers");
 const skillsColRef = collection(db, "skills");
 const perksColRef = collection(db, "perks");
+const addOnesColRef = collection(db, "addOns");
 const videosColRef = collection(db,"videos");
 
 const download = (pathReference, list) => {
@@ -25,5 +26,5 @@ const download = (pathReference, list) => {
 };
 
 export{
-  storage, killersColRef, skillsColRef, perksColRef, videosColRef, download, db
+  storage, killersColRef, skillsColRef, perksColRef, addOnesColRef, videosColRef, download, db
 };
