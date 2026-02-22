@@ -32,15 +32,21 @@ const routes = [
     }
   },
   {
+    path: '/wiki',
+    name: 'DefaultWiki',
+    component: () => import('@/views/Wiki/Perks.vue'),
+    meta: { layout: 'default' }
+  },
+  {
     path: '/wiki/perks',
     name: 'Perks',
-    component: () => import('@/views/Perks.vue'),
+    component: () => import('@/views/Wiki/Perks.vue'),
     meta: { layout: 'default' }
   },
   {
     path: '/wiki/addOns',
     name: 'AddOns',
-    component: () => import('@/views/AddOns.vue'),
+    component: () => import('@/views/Wiki/AddOns.vue'),
     meta: { layout: 'default' }
   },
   {
