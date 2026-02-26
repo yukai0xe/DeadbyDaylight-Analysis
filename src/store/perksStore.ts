@@ -27,11 +27,12 @@ export default{
                     const data = doc.data() as Perk;
                     const perk: Perk = {
                         id: doc.id,
-                        name: data.name,
-                        icon: data.icon,
-                        description: data.description,
-                        character: data.character,
-                        characterPortrait: data.characterPortrait
+                        name: data.name.trim(),
+                        icon: data.icon.trim(),
+                        description: data.description.trim(),
+                        character: data.character.trim(),
+                        characterPortrait: data.characterPortrait.trim() || "",
+                        camp: data.camp
                     };
                     tmpPerks.push(perk);
                 });

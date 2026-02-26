@@ -10,7 +10,10 @@
         </div>
 
         <div class="information-container flex justify-content-center align-items-center flex-column p-5 mt-7">
-            <SearchBar placeholder="Search Perks..." v-model="searchKeyword" class="mb-5" />
+            <div class="toolbar">
+                <SearchBar placeholder="Search Perks..." v-model="searchKeyword" />
+                <slot name="toolbar"/>
+            </div>
             <div v-if="selectCount !== 0" class="my-5">
                 <n-button class="mx-2" type="tertiary" @click="clearClickHandler">{{ selectCount }}</n-button>
                 <n-button class="mx-2" type="tertiary" @click="clearClickHandler">Clear All</n-button>
@@ -78,9 +81,24 @@ const clearClickHandler = () => {
     }
 
     .information-container {
-        max-width: 100%;
+        width: 100%;
         height: auto;
         border-width: 10px;
+        text-align: center;
+    }
+
+    .toolbar {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .content-area {
+        width: 100%;
+        height: auto;
     }
 }
 

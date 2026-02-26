@@ -5,4 +5,5 @@ export interface Perk {
     icon: string;
     character: string;
     characterPortrait: string;
+    camp: number;
 }
