@@ -35,8 +35,8 @@
 
 <script setup>
 import { NButton, NIcon } from "naive-ui";
-import all from "@/@views/Editor/all/_all.vue";
-import detail from "@/@views/Editor/details/_details.vue";
+import all from "@/views/Editor/all/_all.vue";
+import detail from "@/views/Editor/details/_details.vue";
 import { Home as HomeIcon, LogOut as LogOutIcon, Person } from '@vicons/ionicons5'
 import { useRouter } from "vue-router";
 import { ref, onMounted, onBeforeMount, onUpdated, computed, h } from "vue";

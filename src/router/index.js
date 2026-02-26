@@ -50,6 +50,12 @@ const routes = [
     meta: { layout: 'default' }
   },
   {
+    path: '/other',
+    name: 'Other',
+    component: () => import('@/views/Other.vue'),
+    meta: { layout: 'default' }
+  },
+  {
     path: '/editor',
     name: 'Editor',
     component: () => import('@/views/Editor/Control.vue'),

@@ -14,6 +14,7 @@
           </li>
         </ul>
       </li>
+      <li><router-link to="/other">Other</router-link></li>
     </ul>
   </div>
 </template>

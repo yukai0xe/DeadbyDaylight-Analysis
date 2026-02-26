@@ -48,7 +48,7 @@
 <script setup>
 import { NForm, NFormItem, NButton, NInput, NDropdown, NUpload, useNotification } from "naive-ui";
 import { ref, reactive, computed } from "vue";
-import { Timestamp } from "@firebase/firestore";
+import { Timestamp } from "firebase/firestore";
 import { useStore } from "vuex";
 
 defineProps(["drOptions", "levelOptions"]);
