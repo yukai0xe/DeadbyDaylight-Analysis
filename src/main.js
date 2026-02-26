@@ -2,7 +2,6 @@ import { createApp } from "vue";
 import App from "./App.vue";
 import router from "./router";
 import "./interceptors/axios";
-import { Swiper, SwiperSlide } from "vue-awesome-swiper";
 import "swiper/swiper-bundle.css";
 import store from "./store/store";
 import VueCropper from "vue-cropper";
@@ -13,8 +12,6 @@ import "vue-cropper/dist/index.css";
 const app = createApp(App);
 
 app.use(router).use(store).use(VueCropper)
-    .component("Swiper", Swiper)
-    .component("SwiperSlide", SwiperSlide);
 
 app.config.globalProperties.$http = axios;
 

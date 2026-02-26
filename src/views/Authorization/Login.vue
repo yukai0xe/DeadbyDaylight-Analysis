@@ -36,8 +36,8 @@ const submit = async () => {
     await firebase.auth().signInWithEmailAndPassword(user.email, user.password);
     window.localStorage.setItem("user", JSON.stringify(user));
     router.push({
-      path: "/editor",
-      name: "Editor",
+      path: "/character",
+      name: "Character",
       params:{ user: user.email }
     });
   } catch (err) {
@@ -47,7 +47,7 @@ const submit = async () => {
 
 onMounted(() => {
   const userData = JSON.parse(localStorage.getItem("user"));
-  if(userData) router.push("/editor");
+  if(userData) router.push("/character");
 });
 
 </script>

@@ -46,8 +46,6 @@ const selectedLevel = ref("ALL");
 const searchName = ref("");
 const killers = computed(() => store.state.character ? store.state.character.data.killersInfo : []);
 
-
-// 等級過濾器
 const levelGroup = computed(() =>{
   if (selectedLevel.value !== "ALL") return killers.value.filter((item) => item.info.rank == selectedLevel.value);
   return killers.value;
@@ -60,7 +58,6 @@ const levelOptions = computed(() => {
   }));
 });
 
-// 名稱過濾器
 const nameGroup = computed(() => {
   if (searchName.value) {
       return killers.value.filter((item) => {
@@ -71,7 +68,6 @@ const nameGroup = computed(() => {
     } return levelGroup.value;
 });
 
-// 經路由傳資料
 const passDataToRecords = id => {
   store.commit("character/SETID", id);
 };
@@ -80,13 +76,11 @@ const handleSelect = key => {
   selectedLevel.value = key;
 };
 
-// 難易度顏色配置
 const difficulty = role => {
   const levelColorMap = store.state.character.difficultyColor;
   return levelColorMap[role.info.difficulty];
 };
 
-// 生命週期
 onMounted(() => {
   store.dispatch("character/GETDATA");
 }),

@@ -113,7 +113,7 @@ export default {
 </script>
 
 <script setup>
-import { ref, reactive, defineProps, defineEmits, defineExpose, onUpdated } from "vue";
+import { ref, reactive, onUpdated } from "vue";
 import useVuelidate from "@vuelidate/core";
 import { required } from "@vuelidate/validators";
 
