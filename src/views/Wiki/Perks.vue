@@ -35,7 +35,7 @@ import { watch, ref, onMounted, computed, onBeforeUnmount } from "vue";
 import { useStore } from "vuex";
 import perksStore from "@/store/perksStore";
 import { Perk } from "@/types/perks";
-import { MarqueeRowType } from "@/types/components";
+import { MarqueeRowType, Option } from "@/types/components";
 import { provideWikiPanelState } from "@/composable/useWikiOverview";
 import DropDown from "@/components/dropDown.vue";
 
@@ -74,13 +74,6 @@ const marqueeItems = computed(() => perks.value.map(perk => ({
   title: perk.name,
 })));
 const selectedCamp = ref<number | null>(null);
-
-interface Option {
-  label: string
-  value: string | number | null
-  children?: Option[]
-}
-
 const campOptions = computed<Option[]>(() => {
   const base: Option[] = [
     { label: "All", value: null, children: [] },

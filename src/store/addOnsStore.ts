@@ -24,13 +24,16 @@ export default{
                 let tmp: AddOns[] = [];
                 querySnapshot.forEach((doc) => {
                     const data = doc.data() as AddOns;
-                    const perk: AddOns = {
+                    const addOns: AddOns = {
                         id: doc.id,
-                        name: data.name,
-                        icon: data.icon,
-                        description: data.description,
+                        name: data.name.trim(),
+                        icon: data.icon.trim(),
+                        description: data.description.trim(),
+                        power: data.power.trim(),
+                        powerIcon: data.powerIcon.trim(),
+                        camp: data.camp
                     };
-                    tmp.push(perk);
+                    tmp.push(addOns);
                 });
                 context.commit("SETDATA", tmp);
               });

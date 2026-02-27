@@ -31,3 +31,9 @@ export type BloodGraph = {
     nodes: BloodNode[]
     edges: BloodEdge[]
 }
+
+interface Option {
+    label: string
+    value: string | number | null
+    children?: Option[]
+}

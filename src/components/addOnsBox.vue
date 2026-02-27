@@ -1,5 +1,7 @@
 <template>
-    <div class="perk-box">
+    <div class="perk-box" :style="{
+        backgroundImage: background
+    }">
         <div class="perk-icon-wrapper">
             <img :src="addOns.icon" alt="perk image" class="perk-image" />
         </div>
@@ -13,10 +15,52 @@
 
 <script setup lang="ts">
 import type { AddOns } from "@/types/addOns";
+import defaultKillerPortrait from "@/assets/picture/320px-IconHelpLoading_killer.png";
+import defaultSurvivorPortrait from "@/assets/picture/320px-IconHelpLoading_survivor.png";
+import defaultPortrait from "@/assets/picture/default-IconHelp.png";
+import { ref, computed, watch } from "vue";
 
 const props = defineProps<{
     addOns: AddOns;
 }>();
+const imageError = ref(false);
+
+watch(
+    () => props.addOns.powerIcon,
+    (url) => {
+        imageError.value = false;
+
+        if (!url) {
+            imageError.value = true;
+            return;
+        }
+
+        const img = new Image();
+
+        img.onload = () => {
+            imageError.value = false;
+        };
+
+        img.onerror = () => {
+            imageError.value = true;
+        };
+
+        img.src = url;
+    },
+    { immediate: true }
+);
+
+const background = computed(() => {
+    if (imageError.value || !props.addOns.powerIcon) {
+        const defaultPortraits = [
+            defaultPortrait,
+            defaultSurvivorPortrait,
+            defaultKillerPortrait
+        ]
+        return `url(${defaultPortraits[props.addOns.camp]})`;
+    }
+    return `url(${props.addOns.powerIcon})`;
+});
 </script>
 
 <style lang="css" scoped>
@@ -25,10 +69,15 @@ const props = defineProps<{
     display: flex;
     gap: 1rem;
     padding: 1.2rem;
+    width: 80%;
+    min-height: 240px;
     background: radial-gradient(circle at top left,
             rgba(120, 0, 0, 0.4),
             #0f0f0f 60%),
         #0b0b0b;
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
 
     border: 1px solid rgba(160, 0, 0, 0.6);
     border-radius: 10px;
@@ -39,6 +88,7 @@ const props = defineProps<{
 
     transition: all 0.3s ease;
     cursor: pointer;
+    text-align: left;
 }
 
 .perk-box:hover {
@@ -75,6 +125,7 @@ const props = defineProps<{
 /* Text area */
 .perk-info {
     flex: 1;
+    margin-left: 20px;
 }
 
 .perk-name {

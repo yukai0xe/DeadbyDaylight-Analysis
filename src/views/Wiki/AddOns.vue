@@ -4,6 +4,11 @@
     :marquee-rows="marqueeRows"
     :data="addOns"
   >
+    <template #toolbar>
+      <div class="flex gap-4 items-center">
+        <DropDown v-model="selectedCamp" :options="campOptions" placeholder="Select Camp" class="w-40" />
+      </div>
+    </template>
     <template #content>
       <div class="nonePerks p-8" v-if="selectedId.size === 0">Please Click AddOns Above</div>
       <div
@@ -21,12 +26,13 @@
 <script setup lang="ts">
 import Overview from "./Overview.vue";
 import AddOnsBox from "@/components/addOnsBox.vue";
-import { onMounted, computed, onBeforeUnmount } from "vue";
+import { ref, watch, onMounted, computed, onBeforeUnmount } from "vue";
 import { useStore } from "vuex";
 import addOnsStore from "@/store/addOnsStore";
-import { MarqueeRowType } from "@/types/components";
+import { MarqueeRowType, Option } from "@/types/components";
 import type { AddOns } from "@/types/addOns";
 import { provideWikiPanelState } from "@/composable/useWikiOverview";
+import DropDown from "@/components/dropDown.vue";
 
 const { selectedId, searchKeyword } = provideWikiPanelState();
 const store = useStore();
@@ -55,6 +61,40 @@ const filteredData = computed(() => {
 const addOnsClick = computed(() => {
   return filteredData.value.filter(addOns => selectedId.value.has(addOns.id));
 });
+const selectedCamp = ref<number | null>(null);
+const campOptions = computed<Option[]>(() => {
+  const base: Option[] = [
+    { label: "All", value: null, children: [] },
+    { label: "Survivor Item", value: 1, children: [] },
+    { label: "Killer Power", value: 2, children: [] },
+  ];
+
+  addOns.value.forEach(d => {
+    const campOption = base.find(o => o.value === d.camp);
+    if (campOption) {
+      if (d.power.length > 0 && !campOption.children!.some(c => c.value === d.power)) {
+        campOption.children!.push({
+          label: d.power,
+          value: d.power
+        });
+      }
+    }
+  });
+  base.forEach(b => {
+    if (b.children && b.children.length > 0) {
+      b.children.sort((a, b) => a.label.localeCompare(b.label));
+    }
+  })
+  return base;
+});
+
+watch((selectedCamp), (newSelectedCamp) => {
+  if (typeof newSelectedCamp === 'string') {
+    addOns.value.forEach(p => {
+      if (p.power === newSelectedCamp) selectedId.value.add(p.id);
+    })
+  }
+})
 
 onMounted(() => {
   if(!store.state.addOns) store.registerModule("addOns", addOnsStore);
