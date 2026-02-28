@@ -17,14 +17,14 @@
 </template>
 
 <script setup lang="ts">
-import type { Perk } from "@/types/perks";
+import type { PerkViewModel } from "@/types/perks";
 import defaultKillerPortrait from "@/assets/picture/320px-IconHelpLoading_killer.png";
 import defaultSurvivorPortrait from "@/assets/picture/320px-IconHelpLoading_survivor.png";
 import defaultPortrait from "@/assets/picture/default-IconHelp.png";
 import { ref, watch, computed } from "vue";
 
 const props = defineProps<{
-    perk: Perk;
+    perk: PerkViewModel;
 }>();
 const imageError = ref(false);
 

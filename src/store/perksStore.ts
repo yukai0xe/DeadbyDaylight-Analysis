@@ -4,7 +4,7 @@ import { ref as r, uploadBytes } from "firebase/storage";
 import { Perk } from "@/types/perks";
 
 interface PerksState {
-    fbPerks: Perk[];
+    fbPerks: Perk[]
 }
 
 export default{
@@ -25,11 +25,12 @@ export default{
                 let tmpPerks: Perk[] = [];
                 querySnapshot.forEach((doc) => {
                     const data = doc.data() as Perk;
+                    console.log(data)
                     const perk: Perk = {
                         id: doc.id,
-                        name: data.name.trim(),
+                        name: data.name,
                         icon: data.icon.trim(),
-                        description: data.description.trim(),
+                        description: data.description,
                         character: data.character.trim(),
                         characterPortrait: data.characterPortrait.trim() || "",
                         camp: data.camp
@@ -39,7 +40,7 @@ export default{
                 context.commit("SETDATA", tmpPerks);
               });
         },
-
+        
         ADDDATA(context, perkData){
             addDoc(skillsColRef, {
                 name: perkData.newPerkName,

@@ -11,6 +11,7 @@
 
         <div class="information-container flex justify-content-center align-items-center flex-column p-5 mt-7">
             <div class="toolbar">
+                <DropDown v-model="selectedLang" :options="langOptions" placeholder="Choose Lang" class="w-80" />
                 <SearchBar placeholder="Search Perks..." v-model="searchKeyword" />
                 <slot name="toolbar"/>
             </div>
@@ -28,13 +29,14 @@
 
 <script setup lang="ts" generic="T">
 import SearchBar from "@/components/searchBar.vue";
+import DropDown from "@/components/dropDown.vue";
 import { NButton } from "naive-ui";
 import Marquee from "@/components/marquee.vue";
 import { computed } from "vue";
-import { MarqueeRowType, MarqueeItemType } from "@/types/components";
+import { MarqueeRowType, MarqueeItemType, Option } from "@/types/components";
 import { useWikiPanelState } from "@/composable/useWikiOverview";
 
-const { selectedId, searchKeyword } = useWikiPanelState();
+const { selectedId, searchKeyword, selectedLang, langOptions } = useWikiPanelState();
 const props = defineProps<{
     marqueeRows: MarqueeRowType[];
     marqueeItems: MarqueeItemType[];

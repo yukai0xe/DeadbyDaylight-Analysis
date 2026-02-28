@@ -34,7 +34,7 @@ import PerkBox from "@/components/perkBox.vue";
 import { watch, ref, onMounted, computed, onBeforeUnmount } from "vue";
 import { useStore } from "vuex";
 import perksStore from "@/store/perksStore";
-import { Perk } from "@/types/perks";
+import { Perk, PerkViewModel } from "@/types/perks";
 import { MarqueeRowType, Option } from "@/types/components";
 import { provideWikiPanelState } from "@/composable/useWikiOverview";
 import DropDown from "@/components/dropDown.vue";
@@ -48,7 +48,7 @@ const marqueeRows: MarqueeRowType[] = [
 ];
 
 const store = useStore();
-const { selectedId, searchKeyword } = provideWikiPanelState();
+const { selectedId, searchKeyword, selectedLang } = provideWikiPanelState();
 
 const perks = computed<Perk[]>(() => {
   return store.state.perks?.fbPerks ?? [];
@@ -59,19 +59,27 @@ const filteredPerks = computed(() => {
       if (v === null) return true;
       if (typeof v === 'number') return perk.camp === v;
       if (typeof v === 'string') return perk.character === v;
+      return false;
     }
-    const matchesSearch = !searchKeyword.value || perk.name.toLowerCase().includes(searchKeyword.value.toLowerCase());
+    const matchesSearch = !searchKeyword.value || perk.name[selectedLang.value].toLowerCase().includes(searchKeyword.value.toLowerCase());
     return matchesCamp(selectedCamp.value) && matchesSearch;
   });
   return filtered; 
 });
-const perksClick = computed(() => {
-  return filteredPerks.value.filter(perk => selectedId.value.has(perk.id));
-});
+const perksClick = computed<PerkViewModel[]>(() => 
+  filteredPerks.value.filter(perk => selectedId.value.has(perk.id)).map(p => ({
+    name: p.name[selectedLang.value],
+    description: p.description[selectedLang.value],
+    icon: p.icon,
+    character: p.character,
+    characterPortrait: p.characterPortrait,
+    camp: p.camp
+  }))
+);
 const marqueeItems = computed(() => perks.value.map(perk => ({
   id: perk.id,
   icon: perk.icon,
-  title: perk.name,
+  title: perk.name[selectedLang.value],
 })));
 const selectedCamp = ref<number | null>(null);
 const campOptions = computed<Option[]>(() => {
